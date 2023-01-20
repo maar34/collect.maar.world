@@ -1,0 +1,90 @@
+I"�<p class="success">welcome to Maar world.</p>
+
+<div class="hero hero--dark" style="background-image: url(&quot;/maarWorld.jpg&quot;);">
+  <div class="hero__content">
+    <h3>🧜🏽</h3>
+  </div>
+</div>
+
+<p>circumbinary planet, P-type, semi-major axis: 0.699±0.003 AU</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>System parameters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Right ascension</td>
+      <td>19 41 11</td>
+    </tr>
+    <tr>
+      <td>Declination</td>
+      <td>+46 55 13</td>
+    </tr>
+    <tr>
+      <td>Distance [parsec]</td>
+      <td>1189</td>
+    </tr>
+    <tr>
+      <td>Distance [lightyears]</td>
+      <td>3878</td>
+    </tr>
+    <tr>
+      <td>Number of stars in system</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Number of planets in system</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Number of moons in system</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The discovery was made with a space based telescope (0.95 m Kepler Telescope).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mass [Mjup]</th>
+      <th>0.06+0.08−0.04</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mass [Mearth]</td>
+      <td>19+24−12</td>
+    </tr>
+    <tr>
+      <td>Radius [Rjup]</td>
+      <td>0.63+0.06−0.04</td>
+    </tr>
+    <tr>
+      <td>Radius [Rearth]</td>
+      <td>7.0+0.7−0.5</td>
+    </tr>
+    <tr>
+      <td>Orbital period [days]</td>
+      <td>187.37+0.07−0.05</td>
+    </tr>
+    <tr>
+      <td>Semi-major axis [AU]</td>
+      <td>0.699±0.003</td>
+    </tr>
+    <tr>
+      <td>Eccentricity</td>
+      <td>0.024+0.025−0.017</td>
+    </tr>
+    <tr>
+      <td>Discovery year</td>
+      <td>2019</td>
+    </tr>
+  </tbody>
+</table>
+:ET

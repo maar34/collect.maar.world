@@ -1,0 +1,1 @@
+window.TEXT_SEARCH_DATA={'posts':[{'title':"Skyl0",'url':"/2023/01/01/skyl0.html"},{'title':"Skyl00",'url':"/2023/01/01/skyl00.html"},{'title':"Skyl000",'url':"/2023/01/01/skyl000.html"},{'title':"Sphe0",'url':"/2023/01/01/sphe0.html"}]};
