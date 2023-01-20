@@ -1,0 +1,52 @@
+header:
+
+  - titles:
+      # @start locale config
+      en      : &EN      🛰  Live-Sets
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /data.html
+
+  - titles:
+      # @start locale config
+      en      : &EN      🗺  Earth-Landings
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /landings.html
+
+  - titles:
+      # @start locale config
+      en      : &EN      🪗  Soundscapes
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /soundscapes.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       🌈 About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+
+      # @end locale config
+    url: /about.html
+
+#  - titles:
+      # @start locale config
+#      en      : &EN       🧪 𝕄⍺⍺𝓇-Lab
+#      en-GB   : *EN
+#      en-US   : *EN
+#      en-CA   : *EN
+#      en-AU   : *EN
+#      # @end locale config
+#    url: /lab.html
