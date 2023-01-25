@@ -2,7 +2,6 @@
 layout: article
 title: #Entangled Music Cards for Intelligent music players. 
   
-
 header:
   theme: dark
   background: 'linear-gradient(135deg, rgb(0, 255, 0), rgb(139, 34, 139, .1))'

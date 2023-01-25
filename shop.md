@@ -17,4 +17,7 @@ article_header:
 # Magic cards 
 ## For Intelligent Music Players. 
 
-Here theres a sample
+Here theres a sample [linked](articles/1.1-brief.md)
+
+| [TeXt](https://github.com/kitian616/jekyll-TeXt-theme) | Home page |
+
