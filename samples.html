@@ -1,22 +1,23 @@
 ---
-layout: page
-title: Samples
+layout: article
+title: Entangled World Docs
 permalink: /samples.html
+key: page-sidebar-aside
+cover: /img/sky-sounds/r01-sky-sounds-cover.png
+aside:
+  toc: true
+sidebar:
+  nav: layouts
 ---
+
+Welcome to Entangled Worlds, an initiative that explores the intersection of digital and physical worlds through the development of intelligent music players and meta-musical instruments.
+
+A worldbuilding project inspired by history, science fiction, visual arts, music making. A proof of concept for the development of new tools in a creator-owned economy. This may be the first of many entangled worlds.
+
+
 
 <div class="layout--articles">
   <section class="my-5">
-    <header><h2 id="page-layout">Page Layout</h2></header>
-    {%- include article-list.html articles=site.cards type='grid' -%}
+    <header><h2 id="page-layout">Documentation</h2></header>
+    {%- include article-list.html articles=site.sample_page type='grid' -%}
   </section>
-
-  <section class="my-5">
-    <header><h2 id="articles-layout">Articles(Home) Layout</h2></header>
-    {%- include article-list.html articles=site.sample_articles type='grid' -%}
-  </section>
-
-  <section class="my-5">
-    <header><h2 id="languages">Languages</h2></header>
-    {%- include article-list.html articles=site.sample_languages type='grid' size='sm' -%}
-  </section>
-</div>

@@ -26,6 +26,7 @@
 
 .card__header, .card__header > a {
   @include link-colors($text-color-d, $main-color-1);
+  text-align: center;
 }
 
 .card__image {

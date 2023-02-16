@@ -201,19 +201,58 @@ exclude:
   - /test
   - /vendor
 
+collections_dir: collections
+collections:
+  documentation:
+    output: true
+  pages:
+    output: true
+  decks:
+    output: true
+  suits:
+    output: true
+  cards:
+    output: true
+
+
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      layout: article
+      layout: articles
       sharing: true
       license: true
       aside:
-        toc: true
-      show_edit_on_github: true
+        toc: false
+      show_edit_on_github: false
       show_subscribe: true
       pageview: true
+
+  ## samples
+  - scope:
+      path: ""
+      type: documentation
+    values:
+      nav_key: samples
+  - scope:
+      path: ""
+      type: decks
+    values:
+      nav_key: samples
+      show_date: false
+  - scope:
+      path: ""
+      type: suits
+    values:
+      nav_key: samples
+  - scope:
+      path: ""
+      type: cards
+    values:
+      nav_key: samples
+      show_date: false
+
 
 
 ## => Plugins

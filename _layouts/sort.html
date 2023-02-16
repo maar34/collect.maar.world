@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<br>
+
+
+<div class="layout--archive js-all">
+  {%- include tags.html -%}
+  <div class="js-result layout--archive__result d-none">
+    <section class="my-5">
+      <header><h2 id="page-layout">Page Layout</h2></header>
+      {%- include article-list.html articles=site.sample_page type='grid' -%}
+    </section>
+    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+  </div>
+</div>
+
+<script>
+  {%- include scripts/archieve.js -%}
+</script>
+
+{{ content }}
