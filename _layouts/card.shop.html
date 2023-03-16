@@ -1,0 +1,84 @@
+---
+layout: article
+---
+
+<div class="hero hero--center" style="background-color: #000000;">
+  <div class="hero__content">
+    <h3>{{ page.suit_title }}</h3>
+  </div>
+</div>
+<br>
+
+<div class="item">
+  <div class="item__image">
+    <img class="image image--lg" src="{{ page.card_image }}"/>
+  </div>
+  <div class="item__content">
+    <div class="item__header">
+      <div style="text-align: center;">
+        <h2>{{ page.card_title }}:</h2>
+      </div>      
+    </div>
+    <div class="item__description">
+      <p>{{ page.card_description }}</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="p-4">
+  <div class="padding: ($spacer * 1.5); margin-top: $spacer*4;">
+    <select class="select" id="link-selector">
+      <option value="{{ page.ent_link }}">ENT</option>
+      <option value="{{ page.physical_link }}">Physical</option>
+      <option value="{{ page.digital_link }}">Digital</option>
+    </select>
+    <button class="button button--primary  button--rounded" id="go-button">Buy</button>
+
+    <div id="display-text" style="margin-top: 20px;"></div>
+
+  </div>
+</div>
+
+<script>
+  const linkSelector = document.querySelector("#link-selector");
+  const displayText = document.querySelector("#display-text");
+
+  linkSelector.addEventListener("change", function() {
+    const selectedValue = linkSelector.value;
+    switch (selectedValue) {
+      case "{{ page.ent_link }}":
+        displayText.innerHTML = "Buy ENT Card - 0.34 eth";
+        break;
+      case "{{ page.physical_link }}":
+        displayText.innerHTML = "Buy Physical Card - 0.34 eth";
+        break;
+      case "{{ page.digital_link }}":
+        displayText.innerHTML = "Buy NFT Card - 0.34 eth ";
+        break;
+      default:
+        displayText.innerHTML = "< Select your Card Type";
+    }
+  });
+
+  // Trigger the change event manually to show the selected option value on page load
+  linkSelector.dispatchEvent(new Event('change'));
+
+  const goButton = document.querySelector("#go-button");
+  goButton.addEventListener("click", function() {
+      const selectedLink = linkSelector.value;
+      window.open(selectedLink, "_blank");
+    });
+</script>
+
+<p>Purchase this card to unlock exclusive access to the ENT interacive web audio player and download high-quality audio files.</p>
+
+<div class="hero hero--center" style="background-color: #000000;">
+  <div class="hero__content">
+    <h3>Snippet</h3>
+  </div>
+</div>
+
+<div class="container">
+  <iframe class="responsive-iframe" src="{{ page.snip_player }}" style="border: 0" ></iframe>
+</div>

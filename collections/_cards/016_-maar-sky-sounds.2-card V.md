@@ -1,92 +1,22 @@
 ---
-layout: article
+layout: card.shop
 show_title: false
 header:
   theme: dark
   background: 'linear-gradient(135deg, rgb(0, 255, 0), rgb(139, 34, 139, .1))'
-#tags: Maar SkySounds Card
+
 cover: https://www.dropbox.com/s/ws27fi4uj923gjv/Thumb_SkySounds_2_5.jpg?raw=1
-
-
+suit_title: SkySounds.2
+card_title: Card V
+card_image: https://www.dropbox.com/s/djypzyj62cd1ndg/SkySounds2_5.png?raw=1
+card_description: Rainforests pulse with life, a symphony of creatures singing and communicating in a never-ending conversation. The lush greenery serves as a stage for inter-species oral communication, where the songs of birds and insects blend together in a harmonious chorus. It is a land where music is a natural expression of life. The dense canopy overhead shelters an abundance of life, each species playing its own unique role in the symphony of the forest. But beneath the beauty lies a warning, the destruction of these rainforests not only silences the music but also threatens the survival of countless species and the balance of the planet. It's a reminder that to truly listen to the music of the earth, is to also hear the cries for preservation and protection.
+ent_link: https://maarworld.gumroad.com/
+physical_link: https://maarworld.gumroad.com/l/skysound1
+digital_link: https://opensea.io
+snip_player: https://play.maar.world/?g=333&s=1&c=5
 titles:
-  # @start locale config
-  en      : &EN       Maar Sky Sounds.2 Card V
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
+  en      : &EN       SkySounds.2 Card V
 
-  # @end locale config
-key: world-information
+key: ent card shop
+#tags: Maar SkySounds Card
 ---
-<br>
-<div class="item">
-  <div class="item__image">
-    <img class="image image--lg" src="https://www.dropbox.com/s/djypzyj62cd1ndg/SkySounds2_5.png?raw=1"/>
-  </div>
-  <div class="item__content">
-    <div class="item__header">
-      <h2>Card V:</h2>
-    </div>
-    <div class="item__description">
-      <p>Rainforests pulse with life, a symphony of creatures singing and communicating in a never-ending conversation. The lush greenery serves as a stage for inter-species oral communication, where the songs of birds and insects blend together in a harmonious chorus. It is a land where music is a natural expression of life. The dense canopy overhead shelters an abundance of life, each species playing its own unique role in the symphony of the forest. But beneath the beauty lies a warning, the destruction of these rainforests not only silences the music but also threatens the survival of countless species and the balance of the planet. It's a reminder that to truly listen to the music of the earth, is to also hear the cries for preservation and protection.
-
-</p>
-    </div>
-  </div>
-</div>
-
-
-<div class="p-4">
-  <div class="padding: ($spacer * 1.5); margin-top: $spacer*4;">
-    <select class="select" id="link-selector">
-      <option value="https://maarworld.gumroad.com/l/skysound1">ENT</option>
-      <option value="https://maarworld.gumroad.com/">Physical</option>
-      <option value="https://opensea.io/">Digital</option>
-    </select>
-    <button class="button button--primary  button--rounded" id="go-button">Buy</button>
-
-    <div id="display-text" style="margin-top: 20px;"></div>
-
-  </div>
-</div>
-
-<script>
-  const linkSelector = document.querySelector("#link-selector");
-  const displayText = document.querySelector("#display-text");
-
-  linkSelector.addEventListener("change", function() {
-    const selectedValue = linkSelector.value;
-    switch (selectedValue) {
-      case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Card - 0.34 eth";
-        break;
-      case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Card - 0.34 eth";
-        break;
-      case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Card - 0.34 eth ";
-        break;
-      default:
-        displayText.innerHTML = "< Select your Card Type";
-    }
-  });
-
-  // Trigger the change event manually to show the selected option value on page load
-  linkSelector.dispatchEvent(new Event('change'));
-
-  const goButton = document.querySelector("#go-button");
-  goButton.addEventListener("click", function() {
-      const selectedLink = linkSelector.value;
-      window.open(selectedLink, "_blank");
-    });
-</script>
-
-### Snippet
-
-Please <a href="https://support.apple.com/en-gb/HT208353" rel="unmute" target="_blank"> unmute</a> 
-your device and press PLAY ▶️ button. 
-
-<div class="container">
-  <iframe class="responsive-iframe" src="https://play.maar.world/?g=8&d=0&c=0" style="border: 0" ></iframe>
-</div>
