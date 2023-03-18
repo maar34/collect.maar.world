@@ -5,14 +5,14 @@
 ///
 
 // main colors
-$main-color-1:     rgb(0, 255, 0);;
-$text-color-1:     rgba(#662D91, .8);
+$main-color-1:     #ff33cc;
+$text-color-1:     #00ffff;
 
 $main-color-2:     #ffffff;
 $text-color-2:     rgba(rgb(234, 234, 234), .8);
 
 $main-color-3:     rgba(#000000, 1);
-$text-color-3:     rgb(0, 255, 0);
+$text-color-3:     #ff33cc;
 
 $main-color-theme-light: rgba(#000, .8);
 $main-color-theme-dark:  rgba(rgb(234, 234, 234), .8);
@@ -20,12 +20,12 @@ $main-color-theme-dark:  rgba(rgb(234, 234, 234), .8);
 // page background
 $background-color: #000000;
 
-// text colors
-$text-color-theme-light-d: #000;
-$text-color-theme-light:   #222;
+// text colors 
+$text-color-theme-light-d: #33ffff;
+$text-color-theme-light:   #ffffff;
 $text-color-theme-light-l: #888;
 
-$text-color-theme-dark-d:  rgb(0, 255, 0);
+$text-color-theme-dark-d:  #ff33cc;
 $text-color-theme-dark:    rgba(#ffffffe6, .9);
 $text-color-theme-dark-l:  rgba(#939393e6, .9);
 

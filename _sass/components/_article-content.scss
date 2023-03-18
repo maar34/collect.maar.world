@@ -13,6 +13,7 @@
   @include heading-elements() {
     position: relative;
     margin-top: map-get($spacers, 4);
+    
     @media print {
       margin-top: map-get($spacers, 3);
     }

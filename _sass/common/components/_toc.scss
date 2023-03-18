@@ -3,6 +3,7 @@ ul.toc {
   margin: 0;
   color: $text-color;
   list-style-type: none;
+  
   & > li {
     margin: map-get($spacers, 1) / 2 0;
     a {
