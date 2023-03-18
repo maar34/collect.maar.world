@@ -60,7 +60,7 @@ layouts:
   - title: Docs
     children:
       - title:  ENT Music Players
-        url:    /page/ent-music-players.html
+        url:    /docs/ent-music-players.html
       - title:  Glossary
         url:    /docs/glossary.html
       - title:  Technology
