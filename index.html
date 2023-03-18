@@ -7,23 +7,23 @@ permalink: /index.html
 
 header:
   theme: dark
-  background: 'linear-gradient(135deg, rgb(0, 255, 0), rgb(139, 34, 139, .1))'
-  
+ # background: 'linear-gradient(135deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5),)'
+
 article_header:
   actions:
     - text: Learn More > 
       type: info
-      url: /docs/en/quick-start
+      url: /documentation.html
     - text: Buy >
       type: error
-      url: /test/
+      url: /cards.html
       
-  height: 100vh
+  height: 77vh
   theme: ocean
   background_color: '#203028' 
   background_image:
-    gradient: 'linear-gradient(135deg, rgba(0, 255, 0 , .4), rgba(139, 34, 139, .1))'
-    src: /img/music-cards-banner-future-music-1.png
+  #  gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
+    src: /img/landing/cards-back.png
 data:
   sections:
     - title: Interactive music stations.  
@@ -35,10 +35,10 @@ data:
      
       theme: dark
       background_image:
-      gradient: "linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .6))"
+      gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
       src: /img/docs-img/interplanetary-music-players.png
       image:
-        src: /img/docs-img/interplanetary-music-players.png
+        src: /img/landing/maar-world-banner-1.png
         
       background_color: "#000000"
     - title:  Sky Sounds
@@ -46,47 +46,47 @@ data:
 
       actions:
         - text: See Examples
-          url: /docs.html
+          url: /docs/examples.html
         - text: Learn More
-          url: /docs/en/configuration
+          url: /documentation.html
       image:
         src: /img/sky-sounds/r01-sky-sounds-cover.png
         is_row: true
         full_width: true
         style: "max-width: 400px;"
     - title: New and Old
-      excerpt: Collect music with a system of phygital cards, emphasizing the importance of the physical object in the music experience.
-
+      excerpt: Collect music with a system of phygital cards, <br> emphasizing the importance of the physical object in the music experience.
       image:
-        src: /img/music-cards-banner-future-music-1.png
+        src: img/landing/platonic-solids.png
         is_row: true
         full_width: true
-        style: "max-width: 1000px;"
+      #  style: "max-width: 1000px;"
     - title: Enhanced User Experience
       children:
         - title: Increased focus on sustainability
           excerpt: Give humans and planet earth a safe environment to self-heal.
           actions:
             - text: Learn More
-              url: /docs/en/additional-styles
+              url: /docs/sustainability.html
         - title: ENT- Physical & NFT
           excerpt: Each card has QR and NFC technology to access the experience, and also to link with an inmutable certificate of authenticity.
           actions:
             - text: Learn More
-              url: /docs/en/extensions
+              url: /docs/ent.html
         - title: Limited editions 
           excerpt: First edition> Only 50 decks.
           actions:
             - text: Learn More
-              url: /docs/en/markdown-enhancements
+              url: /decks.html
     - title: Evolutive Art
       theme: dark
       excerpt: Part of the Artworks depends on a website that is being update by the Artist, so the experience will improve on time. <br> Open source. 
       actions:
         - text: '<i class="fab fa-github"></i> GitHub'
           type: outline-theme-dark
-          url: https://github.com/kitian616/jekyll-TeXt-theme
-      background_color: "#FF0000"
+          url: https://github.com/maar34/EntangledWorlds-Web-Player
+      background_color: "#663399"
+      
     - title: ReDistribution
       children:
         - title: '34% Regeneration <i class="fas fa-arrow-down"></i>'
