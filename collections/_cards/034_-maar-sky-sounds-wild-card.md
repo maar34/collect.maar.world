@@ -3,8 +3,6 @@ layout: card.shop
 show_title: false
 header:
   theme: dark
-  background: 'linear-gradient(135deg, rgb(0, 255, 0), rgb(139, 34, 139, .1))'
-
 cover: https://www.dropbox.com/s/sl2jwunm4p7q1wv/Thumb_SkySounds_34.jpg?raw=1
 suit_title: SkySounds
 card_title: WildCard

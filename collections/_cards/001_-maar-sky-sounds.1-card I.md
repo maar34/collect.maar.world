@@ -3,8 +3,6 @@ layout: card.shop
 show_title: false
 header:
   theme: dark
-  background: 'linear-gradient(135deg, rgb(0, 255, 0), rgb(139, 34, 139, .1))'
-
 cover: https://www.dropbox.com/s/annm9o8t07jxrzs/Thumb_SkySounds_1_1.png?raw=1
 suit_title: SkySounds.1
 card_title: Card I
@@ -13,7 +11,7 @@ card_description: The north of Maar World is a place where the earth and water s
 ent_link: https://maarworld.gumroad.com/
 physical_link: https://maarworld.gumroad.com/l/skysound1
 digital_link: https://opensea.io
-snip_player: https://play.maar.world/?g=333&s=1&c=1
+snip_player: https://play.maar.world/?g=333&s=0&c=1
 titles:
   en      : &EN       Maar Sky Sounds Card I
 

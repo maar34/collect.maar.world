@@ -3,8 +3,6 @@ layout: card.shop
 show_title: false
 header:
   theme: dark
-  background: 'linear-gradient(135deg, rgb(0, 255, 0), rgb(139, 34, 139, .1))'
-
 cover: https://www.dropbox.com/s/2jjqw5eyrkbz3cu/Thumb_SkySounds_1_10.jpg?raw=1
 suit_title: SkySounds.1
 card_title: Card X
