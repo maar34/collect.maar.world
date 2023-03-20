@@ -43,6 +43,29 @@
     margin-left: 10px;
   }
 
+/* For devices with a screen width less than 768px (i.e. mobile devices) */
+@media screen and (max-width: 767px) {
+  .card-columns {
+    text-align: center;
+    column-count: 1; /* display cards in a single column */
+    column-gap: 1rem;
+  }
+}
 
+/* For devices with a screen width greater than or equal to 768px */
+@media screen and (min-width: 768px) {
+  .card-columns {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    column-count: 2; /* display cards in two columns */
+    column-gap: 1rem;
+  }
+}
+
+.card-border {
+  @include box-shadow(3);
+ 
+}
 
 /* end custom scss snippet */

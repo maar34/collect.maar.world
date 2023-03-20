@@ -1,8 +1,10 @@
 
 .card {
-  max-width: 18rem;
+  max-width: 15rem;
   border-radius: map-get($base, border-radius);
-  @include box-shadow();
+  @include box-shadow(3);
+  @include box-shadow(3);
+
   @include transition(box-shadow map-get($animation, duration) map-get($animation, timing-function));
   & > :first-child {
     border-top-left-radius: map-get($base, border-radius);
@@ -30,6 +32,7 @@
 }
 
 .card__image {
+  
   position: relative;
   width: 100%;
   & > img {

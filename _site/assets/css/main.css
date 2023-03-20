@@ -336,6 +336,8 @@ pre.lineno { color: #8e908c !important; }
 
 .box-shadow-2 { box-shadow: 0 8px 16px rgba(0, 0, 0, 0.23), 0 2px 6px rgba(0, 0, 0, 0.08), 0 12px 24px rgba(0, 0, 0, 0.02); }
 
+.box-shadow-3 { box-shadow: 0 8px 16px rgba(255, 6, 214, 0.9), 0 2px 6px rgba(255, 0, 0, 0.08), 0 12px 24px #8c00ff; }
+
 .mt-0 { margin-top: 0; }
 
 .mt-1 { margin-top: 0.25rem; }
@@ -1197,7 +1199,7 @@ input:focus { outline: none; }
 
 .image--xs { width: 4rem; }
 
-.card { max-width: 18rem; border-radius: 0.4rem; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.23), 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 12px rgba(0, 0, 0, 0.02); -webkit-transition: box-shadow 0.4s ease-in-out; transition: box-shadow 0.4s ease-in-out; }
+.card { max-width: 15rem; border-radius: 0.4rem; box-shadow: 0 8px 16px rgba(255, 6, 214, 0.9), 0 2px 6px rgba(255, 0, 0, 0.08), 0 12px 24px #8c00ff; box-shadow: 0 8px 16px rgba(255, 6, 214, 0.9), 0 2px 6px rgba(255, 0, 0, 0.08), 0 12px 24px #8c00ff; -webkit-transition: box-shadow 0.4s ease-in-out; transition: box-shadow 0.4s ease-in-out; }
 
 .card > :first-child { border-top-left-radius: 0.4rem; border-top-right-radius: 0.4rem; }
 
@@ -2776,6 +2778,14 @@ body, html, .root, .layout--page { height: 100%; }
 .select { font-size: 27px; background-color: #000000; border: 2px solid #0aff4f; color: green; }
 
 .select::after { content: "▼"; margin-left: 10px; }
+
+/* For devices with a screen width less than 768px (i.e. mobile devices) */
+@media screen and (max-width: 767px) { .card-columns { text-align: center; column-count: 1; /* display cards in a single column */ column-gap: 1rem; } }
+
+/* For devices with a screen width greater than or equal to 768px */
+@media screen and (min-width: 768px) { .card-columns { margin-left: 5%; margin-right: 5%; text-align: center; column-count: 2; /* display cards in two columns */ column-gap: 1rem; } }
+
+.card-border { box-shadow: 0 8px 16px rgba(255, 6, 214, 0.9), 0 2px 6px rgba(255, 0, 0, 0.08), 0 12px 24px #8c00ff; }
 
 /* end custom scss snippet */
 
