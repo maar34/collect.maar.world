@@ -71,14 +71,16 @@ layouts:
         url:    /docs/tutorials.html 
       - title:  Sustanibility
         url:    /docs/sustainability.html
-  - title: FAQ
-    children:
       - title:  ENT
         url:    /docs/ent.html 
       - title:  NFT
         url:    /docs/nft.html 
       - title:  NFC
         url:    /docs/nfc.html 
+  - title: FAQ
+    children:
+      - title:  Contact 
+        url:    /docs/contact.html 
   - title: Credits
     children:
       - title:  About
