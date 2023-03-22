@@ -63,13 +63,13 @@ key: world-information
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Card - 0.34 eth";
+        displayText.innerHTML = "Buy ENT Deck - U$D";
         break;
       case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Card - 0.34 eth";
+        displayText.innerHTML = "Buy Physical Deck - U$D";
         break;
       case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Card - 0.34 eth ";
+        displayText.innerHTML = "Buy NFT Deck - ETH ";
         break;
       default:
         displayText.innerHTML = "< Select your Card Type";
