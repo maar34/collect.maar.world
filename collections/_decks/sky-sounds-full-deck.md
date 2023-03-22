@@ -63,16 +63,16 @@ key: world-information
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Deck - U$D";
+        displayText.innerHTML = "Buy ENT Deck Avalable Soon";
         break;
       case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Deck - U$D";
+        displayText.innerHTML = "Buy Physical Deck Avalable Soon";
         break;
       case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Deck - ETH ";
+        displayText.innerHTML = "Buy NFT Deck Avalable Soon ";
         break;
       default:
-        displayText.innerHTML = "< Select your Card Type";
+        displayText.innerHTML = "< Select your Deck Type";
     }
   });
 
@@ -82,6 +82,6 @@ key: world-information
   const goButton = document.querySelector("#go-button");
   goButton.addEventListener("click", function() {
       const selectedLink = linkSelector.value;
-      window.open(selectedLink, "_blank");
+      // window.open(selectedLink, "_blank");
     });
 </script>

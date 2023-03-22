@@ -45,16 +45,16 @@ key: world-information
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Suit - U$D";
+        displayText.innerHTML = "Buy ENT Suit Avalable Soon";
         break;
       case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Card - U$D";
+        displayText.innerHTML = "Buy Physical Suit Avalable Soon";
         break;
       case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Suit - ETH ";
+        displayText.innerHTML = "Buy NFT Suit Avalable Soon ";
         break;
       default:
-        displayText.innerHTML = "< Select Suit Card Type";
+        displayText.innerHTML = "< Select Suit Suit Type";
     }
   });
 
@@ -64,7 +64,7 @@ key: world-information
   const goButton = document.querySelector("#go-button");
   goButton.addEventListener("click", function() {
       const selectedLink = linkSelector.value;
-      window.open(selectedLink, "_blank");
+      // window.open(selectedLink, "_blank");
     });
 </script>
 

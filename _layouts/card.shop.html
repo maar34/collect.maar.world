@@ -47,13 +47,13 @@ layout: article
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "{{ page.ent_link }}":
-        displayText.innerHTML = "Buy ENT Card - U$D";
+        displayText.innerHTML = "Buy ENT Card Avalable Soon";
         break;
       case "{{ page.physical_link }}":
-        displayText.innerHTML = "Buy Physical Card - U$D";
+        displayText.innerHTML = "Buy Physical Card Avalable Soon";
         break;
       case "{{ page.digital_link }}":
-        displayText.innerHTML = "Buy NFT Card - ETH ";
+        displayText.innerHTML = "Buy NFT Card Avalable Soon ";
         break;
       default:
         displayText.innerHTML = "< Select your Card Type";
@@ -66,7 +66,7 @@ layout: article
   const goButton = document.querySelector("#go-button");
   goButton.addEventListener("click", function() {
       const selectedLink = linkSelector.value;
-      window.open(selectedLink, "_blank");
+      // window.open(selectedLink, "_blank");
     });
 </script>
 
