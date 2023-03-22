@@ -3,7 +3,6 @@ layout: article
 show_title: false
 header:
   theme: dark
-  background: 'linear-gradient(135deg, rgb(0, 255, 0), rgb(139, 34, 139, .1))'
 #tags: Maar SkySounds Card
 cover: https://www.dropbox.com/s/annm9o8t07jxrzs/Thumb_SkySounds_1_1.png?raw=1
 
