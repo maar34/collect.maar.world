@@ -45,16 +45,16 @@ key: world-information
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Card - 0.34 eth";
+        displayText.innerHTML = "Buy ENT Suit - U$D";
         break;
       case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Card - 0.34 eth";
+        displayText.innerHTML = "Buy Physical Card - U$D";
         break;
       case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Card - 0.34 eth ";
+        displayText.innerHTML = "Buy NFT Suit - ETH ";
         break;
       default:
-        displayText.innerHTML = "< Select your Card Type";
+        displayText.innerHTML = "< Select Suit Card Type";
     }
   });
 
