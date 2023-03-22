@@ -44,13 +44,13 @@ key: world-information
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Suit Avalable Soon";
+        displayText.innerHTML = "Buy ENT Suit Available Soon";
         break;
       case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Suit Avalable Soon";
+        displayText.innerHTML = "Buy Physical Suit Available Soon";
         break;
       case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Suit Avalable Soon ";
+        displayText.innerHTML = "Buy NFT Suit Available Soon ";
         break;
       default:
         displayText.innerHTML = "< Select Suit Suit Type";
