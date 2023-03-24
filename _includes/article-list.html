@@ -109,36 +109,37 @@
       </li>
 
     {%- elsif include.type == 'grid' -%}
-      {%- if include.size == 'sm' -%}
-        <div class="cell cell--12 cell--md-4 cell--lg-3">
-          <div class="card card--flat">
-            {%- if _article.cover -%}
-              <div class="card__image">
-                <img class="image" src="{{ _article_cover }}" />
-                <div class="overlay overlay--bottom">
-                  <header>
-                    <a href="{{ _article_url }}"><p class="card__header">{{ _article.title }}</p></a>
-                  </header>
-                </div>
-              </div>
-            {%- endif -%}
+    {%- if include.size == 'sm' -%}
+    <div class="cell cell--12 cell--md-4 cell--lg-3">
+      <div class="card card--flat">
+        {%- if _article.cover -%}
+          <div class="card__image">
+            <a href="{{ _article_url }}"><img class="image" src="{{ _article_cover }}" /></a>
+            <div class="overlay overlay--bottom">
+              <header>
+                <a href="{{ _article_url }}"><p class="card__header">{{ _article.title }}</p></a>
+              </header>
             </div>
-        </div>
-      {%- else -%}
-
-        <div class="cell cell--12 cell--md-6 cell--lg-4">
-          <div class="card card--flat">
-            {%- if _article.cover -%}
-              <div class="card__image"><img src="{{ _article_cover }}" /></div>
-            {%- endif -%}
-              <div class="card__content">
-                <header>
-                  <a href="{{ _article_url }}"><p class="card__header">{{ _article.title }}</p></a>
-                </header>
-              </div>
           </div>
+        {%- endif -%}
         </div>
-      {%- endif -%}
+    </div>
+  {%- else -%}
+
+    <div class="cell cell--12 cell--md-6 cell--lg-4">
+      <div class="card card--flat">
+        {%- if _article.cover -%}
+          <div class="card__image"><a href="{{ _article_url }}"><img src="{{ _article_cover }}" /></a></div>
+        {%- endif -%}
+          <div class="card__content">
+            <header>
+              <a href="{{ _article_url }}"><p class="card__header">{{ _article.title }}</p></a>
+            </header>
+          </div>
+      </div>
+    </div>
+  {%- endif -%}
+
     {%- endif -%}
   {%- endfor -%}
 
