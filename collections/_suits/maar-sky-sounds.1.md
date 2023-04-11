@@ -78,7 +78,7 @@ key: world-information
       <h4>Card I:</h4>
     </div>
     <div class="item__description">
-      <p>The north of Maar World is a place where the earth and water sing in harmony, yet it is also a place where the wildness of nature can be both beautiful and terrifying. The cliffs echo with the roar of the sea, and the forests rustle with the gentle flow of streams, creating a symphony of sound that is both serene and fierce. The inhabitants of the north have always listened to the songs of their land and they have woven them into their music, entangled flutes sing like the wind creating a melody that reflects the soundscapes of their surroundings. They have learned to appreciate the beauty and power of nature, yet also respect its potential dangers. The water and earth of the north have shaped their culture and society, teaching them to live in harmony with the elements and to respect their power. The soundscapes of the north are a reminder that we are all connected to the land and that there is always more to discover in the beauty and mystery of the multiverse.
+      <p>The north of Maar World is a place where the ground and water sing in harmony, yet it is also a place where the wildness of nature can be both beautiful and terrifying. The cliffs echo with the roar of the sea, and the forests rustle with the gentle flow of streams, creating a symphony of sound that is both serene and fierce. The inhabitants of the north have always listened to the songs of their land and they have woven them into their music, entangled flutes sing like the wind creating a melody that reflects the soundscapes of their surroundings. They have learned to appreciate the beauty and power of nature, yet also respect its potential dangers. The water and ground of the north have shaped their culture and society, teaching them to live in harmony with the elements and to respect their power. The soundscapes of the north are a reminder that we are all connected to the land and that there is always more to discover in the beauty and mystery of the multiverse.
 </p>
     </div>
   </div>
@@ -114,7 +114,7 @@ key: world-information
       <h4>Card III</h4>
     </div>
     <div class="item__description">
-      <p>At the foot of a majestic mountain, volcanic craters are not just gaping holes in the earth, but also portals to the fiery heart of the planet. These craters can vary in size and shape, from small, bowl-shaped depressions to massive calderas that span miles. They are a reminder of the raw power of the Earth's internal forces and the constant changes that shape this world. They also play a crucial role in shaping geology and climate, and can even create new habitats for unique forms of life. The study of volcanic craters can give us insight into the inner workings of the planet and the forces that shape it. 
+      <p>At the foot of a majestic mountain, volcanic craters are not just gaping holes in the ground, but also portals to the fiery heart of the planet. These craters can vary in size and shape, from small, bowl-shaped depressions to massive calderas that span miles. They are a reminder of the raw power of the ground's internal forces and the constant changes that shape this world. They also play a crucial role in shaping geology and climate, and can even create new habitats for unique forms of life. The study of volcanic craters can give us insight into the inner workings of the planet and the forces that shape it. 
 </p>
     </div>
   </div>
@@ -132,7 +132,7 @@ key: world-information
       <h4>Card IV</h4>
     </div>
     <div class="item__description">
-      <p>The voice of water is heard in many corners of the world, it sings in the rivers, whispers in the streams, and roars in the sea. The water is a constant companion, shaping the land and the lives of its inhabitants. Different species have always listened to the voice of the water, and they have woven it into their music, stories, and legends. Water is a vital source of life, providing nourishment for the earth and sustaining all living things. It is also a force that shapes the land, carving canyons and creating powerful floods. The voice of water reminds us of its importance for life, and the need to respect and preserve it. It is a reminder that water is not just a resource, but a fundamental part of the natural world to be protected and respected.
+      <p>The voice of water is heard in many corners of the world, it sings in the rivers, whispers in the streams, and roars in the sea. The water is a constant companion, shaping the land and the lives of its inhabitants. Different species have always listened to the voice of the water, and they have woven it into their music, stories, and legends. Water is a vital source of life, providing nourishment for the world and sustaining all living things. It is also a force that shapes the land, carving canyons and creating powerful floods. The voice of water reminds us of its importance for life, and the need to respect and preserve it. It is a reminder that water is not just a resource, but a fundamental part of the natural world to be protected and respected.
 </p>
     </div>
   </div>
@@ -150,7 +150,7 @@ key: world-information
       <h4>Card V</h4>
     </div>
     <div class="item__description">
-      <p>The voice of fire is heard in the world, it speaks in the tongues of volcanoes and whispers in the embers of campfires. Fire is a force of nature, both destructive and transformative. The people of Maar have always been fascinated by the voice of fire, and they have woven it into their myths and legends. Fire is a reminder of the power of the earth and its ability to create and destroy. It is a source of warmth and light, but also a source of danger, capable of burning down forests and devastating communities. The voice of fire reminds us of its importance and the need to respect and harness its power. It is a reminder that, like all-natural elements, the fire must be respected and understood, in order to be able to live in harmony with it.
+      <p>The voice of fire is heard in the world, it speaks in the tongues of volcanoes and whispers in the embers of campfires. Fire is a force of nature, both destructive and transformative. The people of Maar have always been fascinated by the voice of fire, and they have woven it into their myths and legends. Fire is a reminder of the power of the world and its ability to create and destroy. It is a source of warmth and light, but also a source of danger, capable of burning down forests and devastating communities. The voice of fire reminds us of its importance and the need to respect and harness its power. It is a reminder that, like all-natural elements, the fire must be respected and understood, in order to be able to live in harmony with it.
 </p>
     </div>
   </div>

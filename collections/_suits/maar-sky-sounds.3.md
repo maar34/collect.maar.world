@@ -76,7 +76,7 @@ key: world-information
       <h4>Card I:</h4>
     </div>
     <div class="item__description">
-      <p> In the world of Maar, the southern soundscapes are not only heard but felt, a blue that permeates the air and speaks to the soul. The melodies and rhythms are born from the earth and the sky, shaped by the winds and the water, and nourished by the sun's energy. These soundscapes are not just a source of entertainment, but a reflection of the natural world and a reminder of our place within it. The preservation of these soundscapes is not just an act of cultural preservation, but a recognition of the interconnectedness of all things and the impact our actions have on the natural world. The jazz-influenced melodies and rhythms that emerge from these soundscapes serve as a reminder of the beauty and complexity of the natural world. 
+      <p> In the world of Maar, the southern soundscapes are not only heard but felt, a blue that permeates the air and speaks to the soul. The melodies and rhythms are born from the soil and the sky, shaped by the winds and the water, and nourished by the sun's energy. These soundscapes are not just a source of entertainment, but a reflection of the natural world and a reminder of our place within it. The preservation of these soundscapes is not just an act of cultural preservation, but a recognition of the interconnectedness of all things and the impact our actions have on the natural world. The jazz-influenced melodies and rhythms that emerge from these soundscapes serve as a reminder of the beauty and complexity of the natural world. 
 </p>
     </div>
   </div>
@@ -131,7 +131,7 @@ key: world-information
       <h4>Card IV</h4>
     </div>
     <div class="item__description">
-      <p>At the edge of a waterfall, the contrast between water and the movement of water on its surface is striking. Water, a fluid element, is constantly in motion, shaping the land and carving its way through the earth. But as it flows and crashes against the surface, it takes on a different form, one that is constantly changing and adapting. This contrast is a reminder of the power and beauty of nature, and the importance of studying and understanding it. The movement of water on the surface can be a force of destruction, carving canyons and shaping the land, but it can also be a force of creation, creating habitats and nourishing life.
+      <p>At the edge of a waterfall, the contrast between water and the movement of water on its surface is striking. Water, a fluid element, is constantly in motion, shaping the land and carving its way through the ground. But as it flows and crashes against the surface, it takes on a different form, one that is constantly changing and adapting. This contrast is a reminder of the power and beauty of nature, and the importance of studying and understanding it. The movement of water on the surface can be a force of destruction, carving canyons and shaping the land, but it can also be a force of creation, creating habitats and nourishing life.
 </p>
     </div>
   </div>
