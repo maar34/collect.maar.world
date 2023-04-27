@@ -57,6 +57,7 @@ header:
 
 
 layouts:
+
   - title: ENT
     url: /docs/ent.html
   - title: ENT-Releases
@@ -80,13 +81,13 @@ layouts:
             url: /docs/ent-cards/tech/qr.html
           - title: EcoFriendly
             url: /docs/ent-cards/tech/ecofriendly.html
-  - title: ENT-Players
-    url: /docs/ent-players.html
+  - title: Interplanetary Players
+    url: /docs/int-players.html
     children:
       - title: How to use them
-        url: /docs/ent-players/how-to-use.html
+        url: /docs/int-players/how-to-use.html
       - title: Development
-        url: /docs/ent-players/development.html
+        url: /docs/int-players/development.html
   - title: ENT-Worlds
     url: /docs/ent-worlds.html
     children:
