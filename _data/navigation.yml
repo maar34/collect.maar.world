@@ -57,31 +57,55 @@ header:
 
 
 layouts:
-  - title: Docs
+  - title: ENT
+    url: /docs/ent.html
+  - title: ENT-Releases
+    url: /docs/ent-releases.html
     children:
-      - title:  ENT Music Players
-        url:    /docs/ent-music-players.html
-      - title:  Glossary
-        url:    /docs/glossary.html
-      - title:  Technology
-        url:    /docs/technology.html
-      - title:  Examples
-        url:    /docs/examples.html 
-      - title:  Tutorials
-        url:    /docs/tutorials.html 
-      - title:  Sustanibility
-        url:    /docs/sustainability.html
-      - title:  ENT
-        url:    /docs/ent.html 
-      - title:  NFT
-        url:    /docs/nft.html 
-      - title:  NFC
-        url:    /docs/nfc.html 
-  - title: FAQ
+      - title: Sky Sounds
+        url: /docs/ent-releases/skysounds.html
+  - title: ENT-Cards
+    url: /docs/ent-cards.html
     children:
-      - title:  Contact 
-        url:    /docs/contact.html 
-  - title: Credits
+      - title: Tutorials
+        url: /docs/ent-cards/tutorials.html
+      - title: Tech
+        url: /docs/ent-cards/tech.html
+        children:
+          - title: NFC
+            url: /docs/ent-cards/tech/nfc.html
+          - title: NFT
+            url: /docs/ent-cards/tech/nft.html
+          - title: QR
+            url: /docs/ent-cards/tech/qr.html
+          - title: EcoFriendly
+            url: /docs/ent-cards/tech/ecofriendly.html
+  - title: ENT-Players
+    url: /docs/ent-players.html
     children:
-      - title:  About
-        url:    /docs/about.html
+      - title: How to use them
+        url: /docs/ent-players/how-to-use.html
+      - title: Development
+        url: /docs/ent-players/development.html
+  - title: ENT-Worlds
+    url: /docs/ent-worlds.html
+    children:
+      - title: Redistribution
+        url: /docs/ent-worlds/redistribution.html
+      - title: Glossary
+        url: /docs/ent-worlds/glossary.html
+  - title: ENT-Space
+    url: /docs/ent-space.html
+    children:
+      - title: Vision
+        url: /docs/ent-space/vision.html
+
+  - title: Information
+    url: /docs/information.html
+    children:
+      - title: FAQ
+        url: /docs/information/faq.html
+      - title: Contact
+        url: /docs/information/contact.html
+      - title: About
+        url: /docs/information/about.html
