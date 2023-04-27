@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: articles
 title: ENT Releases
 permalink: /docs/ent-releases.html
 key: page-sidebar-aside
@@ -10,28 +10,48 @@ sidebar:
   nav: layouts
 header:
    theme: dark
+
 ---
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
 
 
-```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->John: Hello John, how are you?
-    loop Healthcheck
-        John->John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail...
-    John-->Alice: Great!
-    John->Bob: How about you?
-    Bob-->John: Jolly good!
-```
+<section class="my-5">
+  <header><h2 id="aaa"></h2></header>
+  {%- include article-list.html articles=site.docs type='grid' size='sm' -%}
+</section>
 
+
+<section class="my-5">
+  <header><h2 id="aaa"></h2></header>
+  {%- include article-list.html articles=site.docs.releases type='grid' size='sm' -%}
+</section>
+
+
+<section class="my-5">
+  <header><h2 id="aaa"></h2></header>
+  {%- include article-list.html articles= docs.releases type='grid' size='sm' -%}
+</section>
+
+
+  <section class="my-5">
+    <header><h2 id=""></h2></header>
+    {%- include article-list.html articles = site.releases type='grid' size='sm' -%}
+  </section>
+
+
+<section class="my-5">
+  <header><h2 id="aaa"></h2></header>
+  {%- include article-list.html articles=site.docs type='grid' size='sm' -%}
+</section>
+
+
+<section class="my-5">
+  <header><h2 id="aaa"></h2></header>
+  {%- include article-list.html articles=site.docs.releases type='grid' size='sm' -%}
+</section>
+
+
+<section class="my-5">
+  <header><h2 id="aaa"></h2></header>
+  {%- include article-list.html articles= docs.releases type='grid' size='sm' -%}
+</section>

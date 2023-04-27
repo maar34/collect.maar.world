@@ -213,7 +213,9 @@ collections:
     output: true
   cards:
     output: true
-
+  releases:
+    output: true
+    path: "releases"
 
 defaults:
   - scope:
@@ -232,11 +234,6 @@ defaults:
   ## samples
   - scope:
       path: ""
-      type: documentation
-    values:
-      nav_key: samples
-  - scope:
-      path: ""
       type: decks
     values:
       nav_key: samples
@@ -252,8 +249,19 @@ defaults:
     values:
       nav_key: samples
       show_date: false
-
-
+## docs
+  - scope:
+      path: ""
+      type: documentation
+    values:
+      nav_key: docs
+  - scope:
+      path: "docs/releases"
+      type: releases
+    values:
+      nav_key: docs
+      layout: articles
+     
 
 ## => Plugins
 ##############################

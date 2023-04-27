@@ -1,7 +1,7 @@
 ---
-layout: article
+layout: articles
 title: Sky Sounds
-permalink: /docs/ent-releases/skysounds.html
+permalink: /docs/releases/skysounds.html
 key: page-sidebar-aside
 cover: /img/docs/Maar_AI.jpg
 aside:
