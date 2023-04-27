@@ -13,35 +13,9 @@ header:
 ---
 A simple formula for complex problems. Looking for a balance between stakeholders.  
 
-```chart
-{
-  "type": "polarArea",
-  "data": {
-    "datasets": [
-      {
-        "data": [
-          34,
-          33,
-          33
-        ],
-        "backgroundColor": [
-          "#ff33cc",
-          "#ffffff",
-          "#33ffff"
-        ],
-        "label": ""
-      }
-    ],
-    "labels": [
-      "Regeneration",
-      "Artists",
-      "Development"
-    ]
-  },
-  "options": {}
-}
-```
-### Regeneration 
+![Image](/img/docs/ent-worlds/01_ecosystem.png "Interplanetary Player")
+
+### 34% Regeneration 
 34% Give humans and planet Earth a safe environment to self-heal.
 {:.success} 
 
@@ -51,7 +25,7 @@ The area is home to a diverse range of fauna, with over 200 species of birds alo
 
 It is important that we all do our part to support sustainability and the regeneration of biodiversity. Whether it's by supporting local businesses that prioritize environmentally-friendly practices or by getting involved in community initiatives aimed at protecting natural habitats, there are many ways in which we can make a difference.
 
-### Artists 
+### 33% Aural Community 
 
 33% With the right technology, we can reduce the difference between the real world and utopia.
 {:.success} 
@@ -64,7 +38,7 @@ A new era of hybrid artistic and tech projects operating on the blockchain will 
 
 Overall, the music industry needs to embrace the changes brought on by Web3 technology. It's time to move away from the outdated practices of the past and create a more transparent and fair industry for everyone involved. By using blockchain technology, startups have an opportunity to create a new ecosystem for the music industry, creating in balance with communities of artists, technicians, designers and developers the tools we need to thrive and succeed. With the right technology, we can reduce the difference between the real world and utopia and create a brighter future for the music industry.
 
-### Development 
+### 33% Development 
 
 33% Development. The world of music listening and creation is constantly evolving. 
 {:.success} 

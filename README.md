@@ -1,7 +1,7 @@
 
 ## COLLECT.MARR.WORLD
 
-Collect Artworks from another world.
+Collect ENT Artworks from another world.
 
 ## Theme
 

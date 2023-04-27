@@ -1,6 +1,6 @@
 ---
 layout: article
-title: About
+title: Sky Sounds
 permalink: /docs/ent-releases/skysounds.html
 key: page-sidebar-aside
 cover: /img/docs/Maar_AI.jpg
@@ -12,15 +12,9 @@ header:
    theme: dark
 ---
 
+![Image](/img/docs/ent-release/01_skysounds.png "Sky Sounds")
 
-All this work has been done by one artist supported by a beloved community. Maar World is born between individual and collective experiences. An accumulation of adventures between Uruguay, Chile, Spain Germany and a global upbringing.
 
-This movement represents a blend of innovation and a continuation of tradition, a let's go together, another world is possible.
-Time to build bridges, blur borders, and create from the love that unites us and sustains us as individuals united in the form of a network, and not an abyss.
-
-A human-machine commonwealth, from the brush to the machine learning models that reinterpret these creations and expand the stories of an imaginary world, a representation of Maar World where my cosmopolitan ancestry lives and interacts with a global village.
-
-I hear this Earth calls to our love, let's create toghueter protected areas to allow this planet to regenerate, and so heal and take care of ourselves.
 
 SkySounds Credits
 
@@ -34,8 +28,4 @@ SkySounds Credits
 |Design Assitance: | DALLE 2.| 
 |Text Assitance: | Chat-GPT3.|
 
-* Card 1 - 12 - 23 - Done with my brother <a href="http://vrglit.ch " target="_blank"> VR Glitch </a>
-
-![Image](/img/docs/001_maar.jpg){:.circle.border.shadow}
-Photo - <a href="http://www.luleephoto.com" target="_blank">Lu Lee</a>
-
+*Cards 1 - 12 - 23  made with my brother <a href="http://vrglit.ch " target="_blank"> VR Glitch </a>

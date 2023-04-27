@@ -1,7 +1,7 @@
 ---
 layout: article
-title: ENT Players
-permalink: /docs/ent-players.html
+title: Interplanetary Players
+permalink: /docs/int-players.html
 key: page-sidebar-aside
 cover: /img/docs/1_1_ent_players.jpeg
 aside:
@@ -16,7 +16,7 @@ header:
 
 Are you curious about how music and technology are coming together to create a new era of musical creation and exploration? We are excited to be exploring the boundaries of what's possible in music and sound, using a combination of cutting-edge technology and a deep curiosity about what's possible.
 
-Our mission is to create a network of playful music tools that allow users to take control of their sound in new and exciting ways. On of these tools are the "ENT Music Players," and they are designed to be accessible to anyone, whether you're a professional musician or a complete novice.
+Our mission is to create a network of playful music tools that allow users to take control of their sound in new and exciting ways. On of these tools are the "Interplanetary Players," and they are designed to be accessible to anyone, whether you're a professional musician or a complete novice.
 
 ![]({{ site.baseurl }}/img/docs/interplanetary-music-players.png)
 
@@ -24,7 +24,7 @@ At the heart of our approach is the idea that music can be a collaborative and i
 
 Reactivate auditory consciousness, allowing people to explore new dimensions of music and sound that they may not have even known existed. With the help of meta-musical instruments, users can play music, soundscapes, and spoken voice that are truly unique, combining analog and digital technologies to push the boundaries of what's possible.
 
-One of the most exciting aspects of our approach is the development of ENT music players. By connecting people around the world through the power of music and technology, we believe that we can create a new era of music that is more engaging, exciting, and inclusive than ever before. Imagine a world where people from all over the globe can connect and collaborate on new musical projects, breaking down barriers and building new communities through the power of sound.
+One of the most exciting aspects of our approach is the development of Interplanetary players. By connecting people around the world through the power of music and technology, we believe that we can create a new era of music that is more engaging, exciting, and inclusive than ever before. Imagine a world where people from all over the globe can connect and collaborate on new musical projects, breaking down barriers and building new communities through the power of sound.
 
 ![]({{ site.baseurl }}/img/docs/maar-world-max-msp-software.png)
 
