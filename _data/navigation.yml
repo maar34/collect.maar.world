@@ -64,7 +64,7 @@ layouts:
     url: /docs/ent-releases.html
     children:
       - title: Sky Sounds
-        url: /docs/ent-releases/skysounds.html
+        url: /docs/releases/skysounds.html
   - title: ENT-Cards
     url: /docs/ent-cards.html
     children:
