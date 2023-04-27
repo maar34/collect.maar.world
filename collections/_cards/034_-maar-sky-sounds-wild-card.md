@@ -1,5 +1,5 @@
 ---
-layout: card.shop
+layout: card.collect
 show_title: false
 header:
   theme: dark
@@ -15,6 +15,6 @@ snip_player:
 titles:
   en      : &EN       Sky Sounds WildCard 
 
-key: ent card shop
+key: ent card collect
 #tags: Maar SkySounds Card
 ---

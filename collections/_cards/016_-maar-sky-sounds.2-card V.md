@@ -1,5 +1,5 @@
 ---
-layout: card.shop
+layout: card.collect
 show_title: false
 header:
   theme: dark
@@ -15,6 +15,6 @@ snip_player: https://play.maar.world/?g=333&s=1&c=5
 titles:
   en      : &EN       SkySounds.2 Card V
 
-key: ent card shop
+key: ent card collect
 #tags: Maar SkySounds Card
 ---
