@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Glossary
-permalink: /docs/glossary.html
+permalink: /docs/ent-worlds/glossary.html
 key: page-sidebar-aside
 cover: /img/docs/1_2_glossary.jpeg
 aside:

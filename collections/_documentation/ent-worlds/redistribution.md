@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Sustainability
-permalink: /docs/sustainability.html
+title: Redistribution
+permalink: /docs/ent-worlds/redistribution.html
 key: page-sidebar-aside
 cover: /img/docs/1_6_sustainability.jpeg
 aside:

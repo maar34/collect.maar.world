@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Technology
-permalink: /docs/technology.html
+permalink: /docs/ent-cards/tech.html
 key: page-sidebar-aside
 cover: /img/docs/1_5_technology.jpeg
 aside:

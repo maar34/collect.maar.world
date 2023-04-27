@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Contact
-permalink: /docs/contact.html
+permalink: /docs/information/contact.html
 key: page-sidebar-aside
 cover: /img/docs/contact.jpg
 aside:
@@ -12,3 +12,4 @@ header:
    theme: dark
 ---
 
+# Contact 

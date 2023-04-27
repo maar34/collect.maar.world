@@ -1,7 +1,7 @@
 ---
 layout: article
 title: About
-permalink: /docs/about.html
+permalink: /docs/ent-releases/skysounds.html
 key: page-sidebar-aside
 cover: /img/docs/Maar_AI.jpg
 aside:

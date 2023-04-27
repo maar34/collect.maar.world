@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Examples
-permalink: /docs/examples.html
+title: Development
+permalink: /docs/ent-players/development.html
 key: page-sidebar-aside
-cover: /img/docs/1_3_examples.jpeg
+cover: /img/docs/1_4_tuts.jpeg
 aside:
   toc: true
 sidebar:

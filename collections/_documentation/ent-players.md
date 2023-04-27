@@ -1,7 +1,7 @@
 ---
 layout: article
-title: ENT Music Players
-permalink: /docs/ent-music-players.html
+title: ENT Players
+permalink: /docs/ent-players.html
 key: page-sidebar-aside
 cover: /img/docs/1_1_ent_players.jpeg
 aside:
