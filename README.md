@@ -1,7 +1,7 @@
 
-## 𝕄⍺⍺𝓇.𝛚Ⓞ尺♩ᵈ
+## COLLECT.MARR.WORLD
 
-Maar World Shop 
+Collect Maar World Artworks 
 
 ## Theme
 
@@ -10,4 +10,4 @@ Web based on
 
 ## License
 
-Maar World Shop and TeXt Theme are [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+Collect Maar World and TeXt Theme are [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
