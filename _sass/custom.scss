@@ -80,5 +80,18 @@
 }
 
 
-
+.qa {
+  margin-bottom: 1em;
+  border: 1px solid #ff33cc;
+  padding: 1em;
+}
+.qa h3 {
+  margin-top: 0;
+}
+.qa p {
+  margin-bottom: 0;
+}
+.qa .answer {
+  display: none;
+}
 /* end custom scss snippet */
