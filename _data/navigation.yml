@@ -70,17 +70,12 @@ layouts:
     children:
       - title: Tutorials
         url: /docs/ent-cards/tutorials.html
-      - title: Tech
-        url: /docs/ent-cards/tech.html
-        children:
-          - title: NFC
-            url: /docs/ent-cards/tech/nfc.html
-          - title: NFT
-            url: /docs/ent-cards/tech/nft.html
-          - title: QR
-            url: /docs/ent-cards/tech/qr.html
-          - title: EcoFriendly
-            url: /docs/ent-cards/tech/ecofriendly.html
+      - title: NFC
+        url: /docs/ent-cards/nfc.html
+      - title: NFT
+        url: /docs/ent-cards/nft.html
+      - title: Sustainability
+        url: /docs/ent-cards/sustainability.html
   - title: Interplanetary Players
     url: /docs/int-players.html
     children:
@@ -97,16 +92,27 @@ layouts:
         url: /docs/ent-worlds/glossary.html
   - title: ENT-Space
     url: /docs/ent-space.html
-    children:
-      - title: Vision
-        url: /docs/ent-space/vision.html
+
 
   - title: Information
     url: /docs/information.html
     children:
       - title: FAQ
         url: /docs/information/faq.html
-      - title: Contact
-        url: /docs/information/contact.html
       - title: About
-        url: /docs/information/about.html
+        url: https://maar.world/about
+
+
+home:
+
+  - title: Collect
+    url: /
+    children:
+    - title: Decks
+      url: /decks
+    - title: Suits
+      url: /suits
+    - title: Cards
+      url: /cards
+    - title: Docs
+      url: /documentation
