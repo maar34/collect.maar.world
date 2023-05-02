@@ -3,7 +3,7 @@ layout: articles
 title: ENT Releases
 permalink: /docs/ent-releases.html
 key: page-sidebar-aside
-cover: /img/docs/
+cover: /img/docs/ent-cards/01_card-front.png 
 aside:
   toc: true
 sidebar:
@@ -13,45 +13,21 @@ header:
 
 ---
 
-
-
+<div class="layout--articles">
 <section class="my-5">
-  <header><h2 id="aaa"></h2></header>
-  {%- include article-list.html articles=site.docs type='grid' size='sm' -%}
+    <header><h3 id="page-layout"> 20 Deck Albums </h3></header>
+  {%- include article-list.html articles= site.decks type='grid' size='lm' -%}
 </section>
 
-
 <section class="my-5">
-  <header><h2 id="aaa"></h2></header>
-  {%- include article-list.html articles=site.docs.releases type='grid' size='sm' -%}
-</section>
-
-
-<section class="my-5">
-  <header><h2 id="aaa"></h2></header>
-  {%- include article-list.html articles= docs.releases type='grid' size='sm' -%}
+    <header><h3 id="page-layout"> 3 x 10 Suits </h3></header>
+  {%- include article-list.html articles= site.suits type='grid' size='lm' -%}
 </section>
 
 
   <section class="my-5">
-    <header><h2 id=""></h2></header>
-    {%- include article-list.html articles = site.releases type='grid' size='sm' -%}
+    <header><h3 id="page-layout"> 20 * 34 Cards </h3></header>
+    {%- include article-list.html articles = site.cards type='grid' size='lm' -%}
   </section>
 
 
-<section class="my-5">
-  <header><h2 id="aaa"></h2></header>
-  {%- include article-list.html articles=site.docs type='grid' size='sm' -%}
-</section>
-
-
-<section class="my-5">
-  <header><h2 id="aaa"></h2></header>
-  {%- include article-list.html articles=site.docs.releases type='grid' size='sm' -%}
-</section>
-
-
-<section class="my-5">
-  <header><h2 id="aaa"></h2></header>
-  {%- include article-list.html articles= docs.releases type='grid' size='sm' -%}
-</section>

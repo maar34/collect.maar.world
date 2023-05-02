@@ -3,7 +3,7 @@ layout: article
 title: Redistribution
 permalink: /docs/ent-worlds/redistribution.html
 key: page-sidebar-aside
-cover: /img/docs/1_6_sustainability.jpeg
+cover: /img/docs/ent-worlds/01_ecosystem.png 
 aside:
   toc: true
 sidebar:
@@ -11,7 +11,8 @@ sidebar:
 header:
    theme: dark
 ---
-A simple formula for complex problems. Looking for a balance between stakeholders.  
+
+ENT Worlds is a remarkable initiative that aims to strike a balance among stakeholders by utilizing a simple formula to address complex problems. Once production costs are covered, all economic gains from the project are distributed among three critical areas: 34% for regeneration, 33% for artists, and 33% for development. The project strives to safeguard and nurture wildlife, promote sustainability and equitable revenue distribution in the music industry, and facilitate a more natural and intuitive approach to creating and manipulating sound. This approach enables more individuals to reactivate their auditory consciousness and explore new dimensions of music and sound that they may not have previously encountered.
 
 ![Image](/img/docs/ent-worlds/01_ecosystem.png "Interplanetary Player")
 
@@ -25,18 +26,22 @@ The area is home to a diverse range of fauna, with over 200 species of birds alo
 
 It is important that we all do our part to support sustainability and the regeneration of biodiversity. Whether it's by supporting local businesses that prioritize environmentally-friendly practices or by getting involved in community initiatives aimed at protecting natural habitats, there are many ways in which we can make a difference.
 
-### 33% Aural Community 
+### 33% Artists
 
 33% With the right technology, we can reduce the difference between the real world and utopia.
 {:.success} 
 
-The music industry is facing a crisis. With the current rise in inflation and impending recession, many artists are considering abandoning the industry. Publishing problems, rights, contracts, and a lack of confidence in the industry are just some of the issues that artists face. This skepticism and lack of credibility can be seen as a result of the industry's practices, including the descaling of the work of artists and craftsmen.
+The music industry has been facing numerous challenges for several years. From publishing problems and contract disputes to a lack of transparency and fairness in revenue distribution, the industry has been in need of a significant overhaul for quite some time. Moreover, the current economic climate with rising inflation and an impending recession has only exacerbated the situation for artists, leading some to even consider abandoning the industry altogether.
 
-To make matters worse, last year, the three biggest record labels made a staggering $18.2 billion, but the artists received less than 12% of that revenue. The industry has always managed to keep on top of emerging technology and manipulate it in its favour, but the difference with Web3 technology is that it's built on transparency. This makes it much more difficult for industry middlemen to justify their involvement when this new wave of technology explicitly doesn't require them.
+However, the emergence of Web3 technology, built on transparency and decentralization, presents a unique opportunity for the music industry to address these issues and create a more sustainable and equitable future for artists. By using blockchain technology, startups can create a decentralized platform where artists can directly interact with their fans and share their creations without intermediaries. This not only allows for more transparency and control over revenue distribution but also promotes a more meaningful connection between artists and their audiences.
 
-A new era of hybrid artistic and tech projects operating on the blockchain will have access to a new way to increase the aggregate efficiency of our economic activity. This will be a key tool to feed, manage and move the artist economy of the future. By using blockchain technology, projects can create a decentralized platform where artists can directly interact with their fans, and share their creations for remixing purposes without the need for intermediaries. 
+Additionally, blockchain technology can facilitate the creation of NFTs or non-fungible tokens, which are unique digital assets that can represent ownership of various items, including music. This technology has significant potential to transform the music industry by enabling artists to monetize their creations more effectively and protect their intellectual property rights. The use of ENT cards, which combine NFT technology with physical distribution, could provide collectors with a unique and tangible representation of their favorite music while also granting access to digital versions of the same.
 
-Overall, the music industry needs to embrace the changes brought on by Web3 technology. It's time to move away from the outdated practices of the past and create a more transparent and fair industry for everyone involved. By using blockchain technology, startups have an opportunity to create a new ecosystem for the music industry, creating in balance with communities of artists, technicians, designers and developers the tools we need to thrive and succeed. With the right technology, we can reduce the difference between the real world and utopia and create a brighter future for the music industry.
+However, it's essential to recognize that physical distribution remains a vital aspect of music culture. Vinyl records, for instance, have experienced a resurgence in recent years, and many collectors have a strong preference for physical formats. It's crucial to preserve and celebrate this aspect of music culture, especially for the sake of music history and collector's tastes.
+
+The integration of both physical and digital distribution is crucial for reaching wider audiences and finding a balance between the two. By using ENT cards, collectors can own a physical representation of their favorite music, while also having access to the digital version. Moreover, ENT cards could facilitate the development of new business models that combine physical and digital distribution and promote a more sustainable and equitable future for the music industry.
+
+In conclusion, the music industry is at a turning point, and the adoption of Web3 technology could transform the industry, providing new ways for artists to interact with their audiences, protect their intellectual property rights, and monetize their creations effectively. The use of blockchain technology and ENT cards, which combine NFT technology with physical distribution, presents a unique opportunity for the music industry to find a balance between physical and digital distribution and create a more transparent and fair industry for everyone involved.
 
 ### 33% Development 
 
