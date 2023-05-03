@@ -3,7 +3,7 @@ layout: articles
 title: ENT Releases
 permalink: /docs/ent-releases.html
 key: page-sidebar-aside
-cover: /img/docs/ent-cards/01_card-front.png 
+cover: /img/docs/covers/ent-release.jpg
 aside:
   toc: true
 sidebar:

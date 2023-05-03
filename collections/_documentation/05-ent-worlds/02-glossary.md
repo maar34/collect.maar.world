@@ -3,7 +3,7 @@ layout: article
 title: Glossary
 permalink: /docs/ent-worlds/glossary.html
 key: page-sidebar-aside
-cover: /img/docs/1_2_glossary.jpeg
+cover: /img/docs/covers/glossary-cover.jpeg
 aside:
   toc: true
 sidebar:
@@ -14,7 +14,7 @@ header:
 
 
 ### Aural Community 
-Aural Community, a community that is conceived with the user-creator at its center, a system of procedural (non-linear) music and sound that combines the creativity of artists and user-creators with developments of the platform, unique and unrepeatable sound works in every instant, seeking the co-creation of a unique and meaningful listening experience. This community combines the use of concepts and tools of acoustic ecology, soundscape, sound design for video games, generative music, artificially creative musical systems, and new interfaces for musical expression. <a href="[https://archive.org/details/comunidad-aural-independent-v-1/mode/2up]" target="_blank">Comunidad Aural - Maar</a> 
+Aural Community, a community that is conceived with the user-creator at its center, a system of procedural (non-linear) music and sound that combines the creativity of artists and user-creators with developments of the platform, unique sound works in every instant, seeking the co-creation of a unique and meaningful listening experience. This community combines the use of concepts and tools of acoustic ecology, soundscape, sound design for video games, generative music, artificially creative musical systems, and new interfaces for musical expression. <a href="[https://archive.org/details/comunidad-aural-independent-v-1/mode/2up]" target="_blank">Comunidad Aural - Maar</a> 
 
 
 ### Acoustic Community 

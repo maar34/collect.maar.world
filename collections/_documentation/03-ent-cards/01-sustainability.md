@@ -3,7 +3,7 @@ layout: article
 title: Sustainability
 permalink: /docs/ent-cards/sustainability.html
 key: page-sidebar-aside
-cover: /img/docs/ent-cards/03-sustainability.png
+cover: /img/docs/covers/sustainability-cover.jpeg
 aside:
   toc: true
 sidebar:
@@ -24,9 +24,9 @@ Maar World proposes to develop technologies that support projects to expand huma
 Maar World is a project that seeks to balance the benefits of traditional, handmade craftsmanship with the efficiency and consistency of machine-based production. The project aims to preserve the beauty and uniqueness of handcrafted items while utilizing technology to increase production capacity, quality, and affordability. By combining traditional craftsmanship with modern manufacturing techniques, Maar World strives to create sustainable, profitable, and socially responsible businesses. The project recognizes the value of skilled workmanship while also acknowledging the potential benefits of automation in improving productivity and reducing waste.
 
 
-### 100% ecologically Produced in Italy with Solar Energy Powered Production. 
+### 100% ecologically cards produced in Italy with Solar Energy Powered Production. 
 
-In constant search of sustainability, Maar World partened a company that use rigorously selected topnotch printing and packaging machinery powered by the greenest choices in energy and process management. 
+In constant search of sustainability, Maar World partened a company that use rigorously selected topnotch printing machinery powered by the greenest choices in energy and process management. 
 
 ### 100% Hand Made Packaging Made in Uruguay. 
 

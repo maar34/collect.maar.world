@@ -3,7 +3,7 @@ layout: article
 title: FAQ
 permalink: /docs/information/faq.html
 key: page-sidebar-aside
-cover: 
+cover: /img/docs/covers/faquestions-cover.jpg
 aside:
   toc: true
 sidebar:
@@ -42,7 +42,7 @@ header:
     </div>
     <div class="qa">
       <h3 onclick="toggleAnswer(event)">Q: Can you explain what the Aural Community is and what it aims to achieve?</h3>
-      <p class="answer">A: The Aural Community is a community that places the user-creator at its center and combines the creativity of artists and user-creators with developments of the platform to produce unique and unrepeatable sound works. It seeks to create a co-creation experience for a meaningful listening experience. The Aural Community uses tools and concepts of acoustic ecology, soundscape, sound design for video games, generative music, artificially creative musical systems, and new interfaces for musical expression. Its ultimate goal is to create a unique and personalized listening experience for its users.</p>
+      <p class="answer">A: The Aural Community is a community that places the user-creator at its center and combines the creativity of artists and user-creators with developments of the platform to produce unique sound works. It seeks to create a co-creation experience for a meaningful listening experience. The Aural Community uses tools and concepts of acoustic ecology, soundscape, sound design for video games, generative music, artificially creative musical systems, and new interfaces for musical expression. Its ultimate goal is to create a unique and personalized listening experience for its users.</p>
     </div>
 
 

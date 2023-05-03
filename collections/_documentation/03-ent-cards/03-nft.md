@@ -3,7 +3,7 @@ layout: article
 title: NFT
 permalink: /docs/ent-cards/nft.html
 key: page-sidebar-aside
-cover: /img/docs/2_2_nft.jpeg
+cover: /img/docs/covers/nft-cover.jpeg
 aside:
   toc: true
 sidebar:

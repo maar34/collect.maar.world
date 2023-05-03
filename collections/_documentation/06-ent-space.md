@@ -3,7 +3,7 @@ layout: article
 title: ENT-Space
 permalink: /docs/ent-space.html
 key: page-sidebar-aside
-cover: /img/docs/ent-space/01_ent-space.png 
+cover: /img/docs/covers/ent-space-cover.jpeg
 aside:
   toc: true
 sidebar:

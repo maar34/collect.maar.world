@@ -3,7 +3,7 @@ layout: article
 title: Development
 permalink: /docs/int-players/development.html
 key: page-sidebar-aside
-cover: /img/docs/int-players/02_web-player.png
+cover: /img/docs/covers/dev-cover.jpeg
 aside:
   toc: true
 sidebar:

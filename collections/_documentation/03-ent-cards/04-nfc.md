@@ -3,7 +3,7 @@ layout: article
 title: NFC
 permalink: /docs/ent-cards/nfc.html
 key: page-sidebar-aside
-cover: /img/docs/2_1_nfc.jpeg
+cover: /img/docs/covers/nfc-cover.jpeg
 aside:
   toc: true
 sidebar:
@@ -35,7 +35,7 @@ Any NFC reader that supports the NTAG215 Chip can read the cards. Both PC and MA
 iPhone X, iPhone XR, iPhone XS and XS Max, iPhone 11, iPhone 12, iPhone SE (2022), iPhone 13, iPhone 14 already had background tag scanning, allowing users to scan NFC tags without any user action. For iOS users, NFC21 Tools and NFC21 Reader are recommended for reading NFC tags.
 The iOS 14 release from Apple now includes a native NFC tag reader on iPhone 7, 8, and X models, eliminating the need for a separate App to scan NFC tags. However, users of iPhones 6 and earlier cannot scan NFC tags with or without an App. 
 
-![Image](/img/docs/NFC-on-an-iPhone.png "NFC on iPhone 7 8 X") 
+![Image](/img/docs/ent-cards/NFC-on-an-iPhone.png "NFC on iPhone 7 8 X") 
 
 For iPhone 7 till iPhone X models, 
 the NFC tag reader should be within the Control Center of your iPhone by default. 

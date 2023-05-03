@@ -3,7 +3,7 @@ layout: article
 title: Information
 permalink: /docs/information.html
 key: page-sidebar-aside
-cover: /img/docs/2_3_ent.jpeg
+cover: /img/docs/covers/information-cover.jpg
 aside:
   toc: true
 sidebar:

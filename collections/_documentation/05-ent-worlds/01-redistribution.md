@@ -3,7 +3,7 @@ layout: article
 title: Redistribution
 permalink: /docs/ent-worlds/redistribution.html
 key: page-sidebar-aside
-cover: /img/docs/ent-worlds/01_ecosystem.png 
+cover: /img/docs/covers/redistribution-cover.jpg
 aside:
   toc: true
 sidebar:
@@ -12,7 +12,7 @@ header:
    theme: dark
 ---
 
-ENT Worlds is a remarkable initiative that aims to strike a balance among stakeholders by utilizing a simple formula to address complex problems. Once production costs are covered, all economic gains from the project are distributed among three critical areas: 34% for regeneration, 33% for artists, and 33% for development. The project strives to safeguard and nurture wildlife, promote sustainability and equitable revenue distribution in the music industry, and facilitate a more natural and intuitive approach to creating and manipulating sound. This approach enables more individuals to reactivate their auditory consciousness and explore new dimensions of music and sound that they may not have previously encountered.
+ENT Worlds is an initiative that aims to strike a balance among stakeholders by utilizing a simple formula to address complex problems. Once production costs are covered, all economic gains from the project are distributed among three critical areas: 34% for regeneration, 33% for artists, and 33% for development. The project strives to safeguard and nurture wildlife, promote sustainability and equitable revenue distribution in the music industry, and facilitate a more natural and intuitive approach to creating and manipulating sound. This approach enables more individuals to reactivate their auditory consciousness and explore new dimensions of music and sound that they may not have previously encountered.
 
 ![Image](/img/docs/ent-worlds/01_ecosystem.png "Interplanetary Player")
 

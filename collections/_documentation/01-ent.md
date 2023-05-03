@@ -3,7 +3,7 @@ layout: article
 title: ENT
 permalink: /docs/ent.html
 key: page-sidebar-aside
-cover: /img/docs/2_3_ent.jpeg
+cover: /img/docs/covers/ent-cover.jpeg
 aside:
   toc: true
 sidebar:
