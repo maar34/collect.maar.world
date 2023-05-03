@@ -5,7 +5,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       🫀 Decks
+      en      : &EN       <span class="material-symbols-outlined">library_music</span> Decks
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -15,7 +15,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       💠 Suits
+      en      : &EN       <span class="material-symbols-outlined">playlist_add</span> Suits
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -25,7 +25,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       🌳 Cards
+      en      : &EN       <span class="material-symbols-outlined">hearing</span> Cards
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -35,7 +35,7 @@ header:
     
   - titles:
       # @start locale config
-      en      : &EN       📕 Docs
+      en      : &EN       <span class="material-symbols-outlined">local_library</span> Docs
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -46,7 +46,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       🪐 Maar World
+      en      : &EN       <span class="material-symbols-outlined"> hexagon </span> Maar World
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -57,7 +57,8 @@ header:
 
 
 layouts:
-
+  - title: Docs
+    url: /documentation.html
   - title: ENT
     url: /docs/ent.html
   - title: ENT-Releases
@@ -68,14 +69,15 @@ layouts:
   - title: ENT-Cards
     url: /docs/ent-cards.html
     children:
+      - title: Sustainability
+        url: /docs/ent-cards/sustainability.html
       - title: Tutorials
         url: /docs/ent-cards/tutorials.html
       - title: NFC
         url: /docs/ent-cards/nfc.html
       - title: NFT
         url: /docs/ent-cards/nft.html
-      - title: Sustainability
-        url: /docs/ent-cards/sustainability.html
+
   - title: Interplanetary Players
     url: /docs/int-players.html
     children:
@@ -97,13 +99,16 @@ layouts:
   - title: Information
     url: /docs/information.html
     children:
-      - title: FAQ
-        url: /docs/information/faq.html
       - title: About
         url: https://maar.world/about
+      - title: FAQ
+        url: /docs/information/faq.html
+      - title: Terms & Conditions
+        url: /docs/information/terms.html
+        
 
 
-home:
+collect:
 
   - title: Collect
     url: /
@@ -114,5 +119,5 @@ home:
       url: /suits
     - title: Cards
       url: /cards
-    - title: Docs
-      url: /documentation
+  - title: Docs
+    url: /documentation
