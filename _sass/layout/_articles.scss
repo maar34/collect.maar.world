@@ -8,6 +8,9 @@
     font-size: map-get($base, font-size);
   }
   .card__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     & > .overlay {
       &, .card__header {
         font-size: map-get($base, font-size-sm);
