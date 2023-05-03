@@ -35,7 +35,7 @@ header:
     
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">local_library</span> Docs
+      en      : &EN       <span class="material-symbols-outlined">menu_book</span> Docs
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
