@@ -62,13 +62,13 @@ key: world-information
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Deck Available Soon";
+        displayText.innerHTML = "Buy ENT Deck available May 24 2023";
         break;
       case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Deck Available Soon";
+        displayText.innerHTML = "Buy Physical Deck available May 24 2023";
         break;
       case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Deck Available Soon ";
+        displayText.innerHTML = "Buy NFT Deck available May 24 2023 ";
         break;
       default:
         displayText.innerHTML = "< Select your Deck Type";
