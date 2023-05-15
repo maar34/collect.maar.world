@@ -1,7 +1,7 @@
 ---
 layout: article
 title: FAQ
-permalink: /docs/information/faq.html
+permalink: /docs/mw/faq.html
 key: page-sidebar-aside
 cover: /img/docs/covers/faquestions-cover.jpg
 aside:
