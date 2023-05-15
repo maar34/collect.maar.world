@@ -97,7 +97,7 @@ layouts:
 
 
   - title: Maar World
-    url: /docs/information.html
+    url: /docs/mw.html
     children:
       - title: About
         url: https://maar.world/about

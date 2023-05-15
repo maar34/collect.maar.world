@@ -1,7 +1,7 @@
 ---
 layout: article
 title: TERMS AND CONDITIONS
-permalink: /docs/information/terms.html
+permalink: /docs/mw/terms.html
 key: page-sidebar-aside
 cover: /img/docs/covers/terms-cover.jpg
 aside:
