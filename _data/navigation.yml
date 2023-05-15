@@ -96,15 +96,15 @@ layouts:
     url: /docs/ent-space.html
 
 
-  - title: Information
+  - title: Maar World
     url: /docs/information.html
     children:
       - title: About
         url: https://maar.world/about
       - title: FAQ
-        url: /docs/information/faq.html
+        url: /docs/mw/faq.html
       - title: Terms & Conditions
-        url: /docs/information/terms.html
+        url: /docs/mw/terms.html
         
 
 
