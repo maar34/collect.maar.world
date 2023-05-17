@@ -14,7 +14,7 @@ header:
 
 ### Portals to Maar World
 
-The Sky Sounds Card Collection is a revolutionary set of cards that serve as portals to the mythical realm of Maar. These enchanted cards unlock a multidimensional experience for their owners, granting them special access to interplanetary music players that allow them to listen to and create music, and download the original tracks, while also discovering the extension of the story associated with each card.
+The Sky Sounds Card Collection is a revolutionary set of cards that serve as portals to the World of Maar. These enchanted cards unlock a multidimensional experience for their owners, granting them special access to interplanetary music players that allow them to listen to and create music, and download the original tracks, while also discovering the extension of the story associated with each card.
 
 ![Image](/img/sky-sounds/r01-sky-sounds-cover.png "Sky Sounds formation")
 
