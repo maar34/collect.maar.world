@@ -24,11 +24,9 @@ layout: article
   </div>
 </div>
 
-
 <div class="p-4">
   <div class="padding: ($spacer * 1.5); margin-top: $spacer*4;">
     <select class="select" id="link-selector">
-      <option value="{{ page.ent_link }}">ENT</option>
       <option value="{{ page.physical_link }}">Physical</option>
       <option value="{{ page.digital_link }}">Digital</option>
     </select>
@@ -46,14 +44,11 @@ layout: article
   linkSelector.addEventListener("change", function() {
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
-      case "{{ page.ent_link }}":
-        displayText.innerHTML = "Buy ENT Card available May 24 2023";
-        break;
       case "{{ page.physical_link }}":
-        displayText.innerHTML = "Buy Physical Card available May 24 2023";
+        displayText.innerHTML = "Buy Physical Card";
         break;
       case "{{ page.digital_link }}":
-        displayText.innerHTML = "Buy NFT Card available May 24 2023 ";
+        displayText.innerHTML = "Buy NFT Card";
         break;
       default:
         displayText.innerHTML = "< Select your Card Type";
@@ -66,7 +61,7 @@ layout: article
   const goButton = document.querySelector("#go-button");
   goButton.addEventListener("click", function() {
       const selectedLink = linkSelector.value;
-      // window.open(selectedLink, "_blank");
+      window.open(selectedLink, "_blank");
     });
 </script>
 

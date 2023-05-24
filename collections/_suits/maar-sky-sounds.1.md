@@ -24,9 +24,8 @@ key: world-information
 <div class="p-4">
   <div class="padding: ($spacer * 1.5); margin-top: $spacer*4;">
     <select class="select" id="link-selector">
-      <option value="https://maarworld.gumroad.com/l/skysound1">ENT</option>
-      <option value="https://maarworld.gumroad.com/">Physical</option>
-      <option value="https://opensea.io/">Digital</option>
+      <option value="https://maarworld.gumroad.com/l/Skylight-1-Suit">Physical</option>
+      <option value="https://opensea.io/collection/maar-world-collections">Digital</option>
     </select>
     <button class="button button--primary  button--rounded" id="go-button">Buy</button>
 
@@ -42,14 +41,11 @@ key: world-information
   linkSelector.addEventListener("change", function() {
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
-      case "https://maarworld.gumroad.com/l/skysound1":
-        displayText.innerHTML = "Buy ENT Suit available May 24 2023";
+      case "https://maarworld.gumroad.com/l/Skylight-1-Suit":
+        displayText.innerHTML = "Buy Physical Suit";
         break;
-      case "https://maarworld.gumroad.com/":
-        displayText.innerHTML = "Buy Physical Suit available May 24 2023";
-        break;
-      case "https://opensea.io/":
-        displayText.innerHTML = "Buy NFT Suit available May 24 2023 ";
+      case "https://opensea.io/collection/maar-world-collections":
+        displayText.innerHTML = "Buy NFT Suit ";
         break;
       default:
         displayText.innerHTML = "< Select your Suit Type";
@@ -62,7 +58,7 @@ key: world-information
   const goButton = document.querySelector("#go-button");
   goButton.addEventListener("click", function() {
       const selectedLink = linkSelector.value;
-      // window.open(selectedLink, "_blank");
+      window.open(selectedLink, "_blank");
     });
 </script>
 
