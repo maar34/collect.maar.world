@@ -43,8 +43,8 @@ key: world-information
 <div class="p-4">
   <div class="padding: ($spacer * 1.5); margin-top: $spacer*4;">
     <select class="select" id="link-selector">
-      <option value="https://maarworld.gumroad.com/l/SkylightFullDeck">Physical</option>
-      <option value="https://opensea.io/collection/maar-world-collections">Digital</option>
+      <option value="https://www.physical.maar.world/l/SkylightFullDeck">Physical</option>
+      <option value="https://digital.maar.world">Digital</option>
     </select>
     <button class="button button--primary  button--rounded" id="go-button">Buy</button>
     <div id="display-text" style="margin-top: 20px;"></div>
@@ -59,10 +59,10 @@ key: world-information
   linkSelector.addEventListener("change", function() {
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
-      case "https://maarworld.gumroad.com/l/SkylightFullDeck":
+      case "https://www.physical.maar.world/l/SkylightFullDeck":
         displayText.innerHTML = "Buy Physical Deck";
         break;
-      case "https://opensea.io/collection/maar-world-collections":
+      case "https://digital.maar.world":
         displayText.innerHTML = "Buy NFT Deck ";
         break;
       default:
