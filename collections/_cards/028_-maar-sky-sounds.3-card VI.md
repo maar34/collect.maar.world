@@ -11,7 +11,7 @@ card_description: There exist species with the extraordinary ability to perceive
 
 ent_link: https://www.physical.maar.world/
 physical_link: https://www.physical.maar.world/l/028-Maar-Sky-Sounds-3-Card-VI
-digital_link: https://www.digital.maar.world/1/0x2bb55258e4bfcef99299baec1188b80a75fa2d48/28
+digital_link: https://digital.maar.world/1/0x2bb55258e4bfcef99299baec1188b80a75fa2d48/28
 snip_player: https://play.maar.world/?g=333&s=2&c=6
 titles:
   en      : &EN       Sky Sounds.3 Card VI
