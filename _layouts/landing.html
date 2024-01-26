@@ -163,8 +163,14 @@ article_header:
             {%- endif -%}
           {%- endif -%}
 
+    
       {%- if _section.image.full_width != true -%}
         </div> {% comment %} end hero__content {% endcomment %}
+      {%- endif -%}
+      {%- if _section.iframe_src -%}
+        <div class="container">
+          <iframe class="responsive-iframe" src="{{ _section.iframe_src }}" style="border: 0; max-width: 800px;"></iframe>
+        </div>
       {%- endif -%}
 
       {%- if _section.content-%}
