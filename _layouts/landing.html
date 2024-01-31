@@ -68,7 +68,7 @@ article_header:
                   <div class="cell cell--12 cell--md-{{ _cell_md_col }} cell--lg-{{ _cell_lg_col }} ">
 
                     <div class="mb-5">
-                      <h4>{{ child.title }}</h4>
+                      <p>{{ child.title }}</p>
 
                       {%- if child.excerpt-%}
                         <p>{{ child.excerpt }}</p>
@@ -163,8 +163,14 @@ article_header:
             {%- endif -%}
           {%- endif -%}
 
+    
       {%- if _section.image.full_width != true -%}
         </div> {% comment %} end hero__content {% endcomment %}
+      {%- endif -%}
+      {%- if _section.iframe_src -%}
+        <div class="container">
+          <iframe class="responsive-iframe" src="{{ _section.iframe_src }}" style="border: 0; max-width: 800px;"></iframe>
+        </div>
       {%- endif -%}
 
       {%- if _section.content-%}

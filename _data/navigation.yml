@@ -5,23 +5,23 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">library_music</span> Decks
+      en      : &EN       <span class="material-symbols-outlined">stress_management</span> Physical
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /decks.html
+    url: https://www.physical.maar.world/
 
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">playlist_add</span> Suits
+      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Digital
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /suits.html
+    url: https://digital.maar.world
 
   - titles:
       # @start locale config

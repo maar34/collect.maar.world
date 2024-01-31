@@ -29,4 +29,4 @@ The project is open-source and accessible to anyone interested in experimenting 
 Additionally, RNBO offers an intuitive, user-friendly interface for patching and experimenting with code, making it accessible to a wide range of users. Overall, RNBO represents an exciting new tool for musicians and programmers alike, offering a powerful and versatile platform for music creation and experimentation.
 
 ### Desktop Version.
-The desktop version of our product will be available first for full deck investors upon request. We're excited to offer this exclusive feature to our most dedicated collectors. Stay tuned for more information on the release of the desktop version. 
+The desktop version is a prototype that may be available upon request. 

@@ -37,8 +37,8 @@
   .select {
     font-size: 27px;
     background-color: #000000;
-    border: 2px solid #33eeff;
-    color: #ff33cc;
+    border: 2px solid #ff33cc;
+    color: #33eeff;
 
 
   }
@@ -79,15 +79,17 @@
   'wght' 300,
   'GRAD' 200,
   'opsz' 40;
-  color: #33ffff;
+  color: #ff33cc;
   font-weight: bold;
   vertical-align: bottom;
 }
-
+.material-symbols-outlined-special {
+  color: #33ffff;
+}
 
 .qa {
   margin-bottom: 1em;
-  border: 1px solid #ff33cc;
+  border: 1px solid #33ffff;
   padding: 1em;
 }
 .qa h3 {
