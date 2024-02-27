@@ -17,12 +17,11 @@ header:
 
 ### Human-Centered Technology.
 
-Maar World proposes to develop technologies that support projects to expand human possibilities as creators, instead of gradually dehumanizing the creative process. The focus is on what a creative mind can achieve with these tools, rather than the tools dictating the creative process. This involves transitioning from the era of "tools used by humans" to the era of "tools that walk with humans". By prioritizing the human experience and creativity, Maar World seeks to create technologies that empower, inspire, and amplify human potential in creative endeavors.
+Maar World proposes to develop technologies that support projects to expand human possibilities as creators. This involves transitioning from the era of "tools used by humans" to the era of "tools that walk with humans". By prioritizing the human experience and creativity, Maar World seeks to create technologies that empower, inspire, and amplify human potential in creative endeavors.
 
 ### Looking for an harmony between artisanship and automation.
 
 Maar World is a project that seeks to balance the benefits of traditional, handmade craftsmanship with the efficiency and consistency of machine-based production. The project aims to preserve the beauty and uniqueness of handcrafted items while utilizing technology to increase production capacity, quality, and affordability. By combining traditional craftsmanship with modern manufacturing techniques, Maar World strives to create sustainable, profitable, and socially responsible businesses. The project recognizes the value of skilled workmanship while also acknowledging the potential benefits of automation in improving productivity and reducing waste.
-
 
 ### 100% ecologically cards produced in Italy with Solar Energy Powered Production. 
 
