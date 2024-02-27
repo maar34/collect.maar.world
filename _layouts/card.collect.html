@@ -40,15 +40,16 @@ layout: article
 <script>
   const linkSelector = document.querySelector("#link-selector");
   const displayText = document.querySelector("#display-text");
+  document.querySelector("#link-selector").style.borderRadius = '10px';
 
   linkSelector.addEventListener("change", function() {
     const selectedValue = linkSelector.value;
     switch (selectedValue) {
       case "{{ page.physical_link }}":
-        displayText.innerHTML = "Buy Physical Card";
+        displayText.innerHTML = "Select and Buy one Physical Card for $7";
         break;
       case "{{ page.digital_link }}":
-        displayText.innerHTML = "Buy NFT Card";
+        displayText.innerHTML = "Buy NFT Card 0.00044 eth";
         break;
       default:
         displayText.innerHTML = "< Select your Card Type";
