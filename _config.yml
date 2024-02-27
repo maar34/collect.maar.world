@@ -207,10 +207,6 @@ collections:
     output: true
   pages:
     output: true
-  decks:
-    output: true
-  suits:
-    output: true
   cards:
     output: true
   releases:
@@ -232,17 +228,6 @@ defaults:
       pageview: true
 
   ## samples
-  - scope:
-      path: ""
-      type: decks
-    values:
-      nav_key: samples
-      show_date: false
-  - scope:
-      path: ""
-      type: suits
-    values:
-      nav_key: samples
   - scope:
       path: ""
       type: cards
