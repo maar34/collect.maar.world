@@ -11,7 +11,7 @@ card_description: In the south, life thrives in the vast expanse of the sky and 
 ent_link: https://www.physical.maar.world/
 physical_link: https://www.physical.maar.world/l/024-Maar-Sky-Sounds-3-Card-II
 digital_link: https://digital.maar.world/1/0x2bb55258e4bfcef99299baec1188b80a75fa2d48/24
-snip_player: https://play.maar.world/?g=333&s=1&c=3
+snip_player: https://play.maar.world/?g=333&s=2&c=2
 titles:
   en      : &EN       Sky Sounds.3 Card II
 
