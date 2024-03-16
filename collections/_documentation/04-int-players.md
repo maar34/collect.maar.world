@@ -17,37 +17,6 @@ article_header:
     src: /img/pages/433-decks.gif
 data:
   sections:
-    - title: Modern Ancestry
-      excerpt: You can also hit play, pause, and playing with the speed. You get to tweak sounds and visuals by playing around with spacey controls effects like you're adjusting the spaceship's coordinates.      
-      theme: dark
-      background_image:
-      gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
-      src: /img/landing/2024_ss-2.jpeg
-      image:
-        src: /img/docs/int-players/00_modern-ancestry.jpeg
-        is_row: true
-        full_width: true
-        style: "max-width: 1200px;"
-
-        
-      background_color: "#000000"
-    - title: An Extended Harmony of the Spheres 
-      excerpt: Plus, you can sync your remix to movement of the Kepler-47 star system. It's like mixing your sounds with a touch of stardust, opening up a whole new galaxy of how you jam out to your tunes. 
-      actions:
-
-      theme: dark
-      background_image:
-      gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
-      src: /img/landing/2024_ss-2.jpeg
-      image:
-        src: /img/docs/int-players/Planetary_Musical_Scales_from_Harmony_of_the_Worlds.jpg
-        is_row: true
-        full_width: true
-        style: "max-width: 400px;"
-
-        
-      background_color: "#000000"
-
     - title: "Control the Sound:" 
       excerpt:  Use the PLAY/PAUSE buttons to start or stop the music. Adjust the sound parameters with the XYZ Balance buttons or sliders to tweak the sound to your liking.
       iframe_src: "https://play.maar.world/?g=8&s=0&c=21"
@@ -80,17 +49,9 @@ data:
         is_row: true
         full_width: true
         style: "max-width: 800px;"
-      excerpt: We are in the very beggining of this journey, stay connected for more.
+      excerpt: We are in the very beggining of this journey, <a href="https://maar.world/subscribe" target="_blank">stay connected </a> for more.
 
-    - title: Start collecting
-      theme: dark
-      excerpt: Purchase physical and digital cards in our online store, and we'll ship them wherever you are.
-      actions:
-        - text: <span class="material-symbols-outlined">hearing</span>  Collect 
-          url: /cards
-          type: outline-theme-dark
 
-      background_color: "#663399"
     - title: Unlock new dimensions of the experience.
       children:
         - title: 'Select and get your favourite card for 7.00 U$D <i class="fas fa-arrow-down"></i>'
@@ -111,6 +72,44 @@ data:
             url: https://maarworld.gumroad.com/l/7envelope
             style: "max-width: 400; max-height: 400"
             is_row: true
+    - title: Innovative Tradition
+      excerpt: Press play, pause, and experiment with the Pitch control. Also, learn new parameters to tweak sounds and visuals. Discover the effects of spacey controls as if you're adjusting a spaceship's coordinates.      
+      theme: dark
+      background_image:
+      gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
+      src: /img/landing/2024_ss-2.jpeg
+      image:
+        src: /img/docs/int-players/09_ip-immersive.jpg
+        is_row: true
+        full_width: true
+        style: "max-width: 1200px;"
+      background_color: "#000000"
+      
+    - title: Start collecting
+      theme: dark
+      excerpt: Purchase physical and digital cards in our online store, and we'll ship them wherever you are.
+      actions:
+        - text: <span class="material-symbols-outlined">hearing</span>  Collect 
+          url: /cards
+          type: outline-theme-dark
+
+      background_color: "#663399"
+    - title: An Extended Harmony of the Spheres 
+      excerpt: Sync your remix with the movement of the Kepler-47 star system. It's like mixing your sounds with a touch of stardust, opening a new spectrum of possibilities for jamming with the cosmos.
+      actions:
+
+      theme: dark
+      background_image:
+      gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
+      src: /img/landing/2024_ss-2.jpeg
+      image:
+        src: /img/docs/int-players/Planetary_Musical_Scales_from_Harmony_of_the_Worlds.jpg
+        is_row: true
+        full_width: true
+        style: "max-width: 400px;"
+
+        
+      background_color: "#000000"
 
       
 ---
