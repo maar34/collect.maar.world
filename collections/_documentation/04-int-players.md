@@ -1,6 +1,7 @@
 ---
 layout: landing
 title: Interplanetary Players 
+cover: /img/docs/covers/int-players-cover.jpeg
 excerpt: >
       Imagine turning your browser into a turntable from outer space. 
 permalink: /docs/int-players.html
@@ -9,7 +10,7 @@ header:
   theme: dark
  # background: 'linear-gradient(135deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5),)'
 article_header:
-  height: 100vh
+  height: 30vh
   theme: ocean
   background_color: '#203028' 
   background_image:
@@ -19,11 +20,11 @@ data:
   sections:
     - title: "Control the Sound:" 
       excerpt:  Use the PLAY/PAUSE buttons to start or stop the music. Adjust the sound parameters with the XYZ Balance buttons or sliders to tweak the sound to your liking.
-      iframe_src: "https://play.maar.world/?g=8&s=0&c=21"
+      iframe_src: "https://play.maar.world/?g=335&s=1&c=0"
 
     - title: "Explore Regenerative Modes:"
-      excerpt: Experiment with 7 unique modes, from listening to music in the standard way to transforming it with X, Y, Z controls, based on real data from exoplanets and their transits and orbits across different time scales.
-      iframe_src: "https://play.maar.world/?g=335&s=1&c=0"
+      excerpt: Experiment with 7 unique modes, creating with real data from exoplanets and their transits and orbits across different time scales. Leave the button pressed to get hints about this parameters. 
+      iframe_src: "https://play.maar.world/?g=8&s=0&c=21"
 
 
     - title: 💌
@@ -73,7 +74,7 @@ data:
             style: "max-width: 400; max-height: 400"
             is_row: true
     - title: Innovative Tradition
-      excerpt: Press play, pause, and experiment with the Pitch control. Also, learn new parameters to tweak sounds and visuals. Discover the effects of spacey controls as if you're adjusting a spaceship's coordinates.      
+      excerpt: Please unmute your device and press PLAY ▶️ button. Experiment with the X Y Z knobs. Discover the different cards effects as if you're adjusting a spaceship's experience.      
       theme: dark
       background_image:
       gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
@@ -87,7 +88,7 @@ data:
       
     - title: Start collecting
       theme: dark
-      excerpt: Purchase physical and digital cards in our online store, and we'll ship them wherever you are.
+      excerpt: Purchase physical in our online store, and we'll ship them wherever you are.
       actions:
         - text: <span class="material-symbols-outlined">hearing</span>  Collect 
           url: /cards
