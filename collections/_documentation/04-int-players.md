@@ -19,7 +19,7 @@ article_header:
 data:
   sections:
     - title: "Control the Sound:" 
-      excerpt:  Use the PLAY/PAUSE buttons to start or stop the music. Adjust the sound parameters with the XYZ Balance buttons or sliders to tweak the sound to your liking.
+      excerpt:  Please unmute your device and press PLAY ▶️ button. Adjust the sound parameters with the XYZ Balance buttons or sliders to tweak the sound to your liking.
       iframe_src: "https://play.maar.world/?g=335&s=1&c=0"
 
     - title: "Explore Regenerative Modes:"
@@ -74,7 +74,7 @@ data:
             style: "max-width: 400; max-height: 400"
             is_row: true
     - title: Innovative Tradition
-      excerpt: Please unmute your device and press PLAY ▶️ button. Experiment with the X Y Z knobs. Discover the different cards effects as if you're adjusting a spaceship's experience.      
+      excerpt: Start experimenting with PLAY ▶️ Pause, X Y Z knobs and Regeneration Button. Discover the different cards effects as if you're adjusting a spaceship's experience.   
       theme: dark
       background_image:
       gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
