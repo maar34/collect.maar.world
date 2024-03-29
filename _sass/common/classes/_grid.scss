@@ -7,6 +7,11 @@ $grid-columns: 12;
   min-width: 0;
 }
 
+.content {
+  width: 100%; /* Ensures content takes up the full width of its container */
+  /* Other styling as needed */
+}
+
 @mixin make-cell($columns) {
   @if $columns == "auto" {
     @include flex(1 1 0);

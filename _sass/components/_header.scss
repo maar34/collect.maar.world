@@ -16,9 +16,15 @@
 .header--dark {
   @extend .text--dark;
   background: rgba(#000, .15);
+  color: #fff; // Ensure text color is white for all child elements
+
+  a, .navigation__item a { // Target links directly for color
+    color: #fff !important; // Override link color directly
+  }
+
   .navigation__item--active {
     &::after {
-      @include split-line(bottom, 4px, $text-color-theme-dark);
+      @include split-line(bottom, 4px, $text-color-theme-dark); // Ensure this uses the correct color
     }
   }
 }
