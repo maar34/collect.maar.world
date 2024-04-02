@@ -5,6 +5,13 @@ $grid-columns: 12;
 }
 .cell {
   min-width: 0;
+
+}
+// Define a specific bordered cell style
+.cell--bordered {
+  border: 1px solid white; // Adds a 1px white border specifically for bordered cells
+  border-radius: 3px;
+
 }
 
 .content {

@@ -3,6 +3,7 @@
   @include flexbox();
   @include flex-direction(column);
   @include justify-content(center);
+  
   h1 { font-size: map-get($base, font-size-h1-xl); }
   h2 { font-size: map-get($base, font-size-h2-xl); }
   h3 { font-size: map-get($base, font-size-h3-xl); }
@@ -45,6 +46,30 @@
 
 .hero--dark {
   @extend .text--dark;
+}
+.hero--bordered {
+  @include flexbox();
+  @include flex-direction(column);
+  @include justify-content(center);
+  border: 2px solid white; // Adds a white border
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+
+  // You can include the responsive font sizing as in the original .hero
+  h1 { font-size: map-get($base, font-size-h1-xl); }
+  h2 { font-size: map-get($base, font-size-h2-xl); }
+  // ...and so on for h3, h4, h5, h6, p with their respective font sizes
+  
+  // Include media queries if you want to maintain the responsive behavior
+  @include media-breakpoint-down(lg) {
+    // Adjust font sizes for lg breakpoint
+    // ...
+  }
+  @include media-breakpoint-down(md) {
+    // Adjust font sizes for md breakpoint
+    // ...
+  }
 }
 
 .hero__content {
