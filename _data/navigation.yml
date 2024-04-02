@@ -2,26 +2,15 @@
 
 header:
 
-
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">stress_management</span> Physical
+      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Interplanetary Players
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: https://www.physical.maar.world/
-
-  - titles:
-      # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Digital
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: https://digital.maar.world
+    url: /docs/int-players.html
 
   - titles:
       # @start locale config

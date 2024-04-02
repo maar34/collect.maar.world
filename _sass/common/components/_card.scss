@@ -44,15 +44,17 @@
 }
 
 .card__image {
-  
   position: relative;
   width: 100%;
-  & > img {
+  
+  & > img,
+  & > video {
     display: block;
     width: 100%;
     height: auto;
     border-radius: inherit;
   }
+  
   & > .overlay {
     position: absolute;
     width: 100%;
@@ -62,7 +64,9 @@
       text-decoration: none !important;
     }
   }
-  & > .overlay, & > .overlay--top {
+  
+  & > .overlay,
+  & > .overlay--top {
     top: 0;
     bottom: auto;
     border-top-left-radius: inherit;
@@ -70,6 +74,7 @@
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
+  
   & > .overlay--bottom {
     top: auto;
     bottom: 0;
@@ -78,19 +83,24 @@
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
   }
+  
   & > .overlay--full {
     top: 0;
     bottom: 0;
   }
-  & > .overlay, & > .overlay--dark {
+  
+  & > .overlay,
+  & > .overlay--dark {
     @extend .text--dark;
     background-color: rgba(#000, .4);
   }
+  
   & > .overlay--light {
     @extend .text--light;
     background: rgba(#fff, .4);
   }
 }
+
 .card--clickable {
   cursor: pointer;
   text-align: center; // Centers text inside the flex container
