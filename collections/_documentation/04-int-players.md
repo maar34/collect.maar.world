@@ -30,7 +30,7 @@ article_header:
         <div class="container">
           <iframe src="https://play.maar.world/?g=335&s=1&c=0" class="responsive-iframe" title="Control the Sound Interactive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <p>Please unmute your device and press the PLAY ▶️ button. Adjust the sound parameters with the XYZ Balance buttons or sliders to tweak the sound to your liking.</p>
+        <p>Please unmute your device and press the PLAY ▶️ button. Adjust the sound by moving the XYZ KNOBS up or down until you like what you hear. If you want to go back to the original sound, press the hexagonal ⬢ buttons to reset the knobs to their equilibrium.</p>
       </div>
     </div>
     <div class="hero hero--center hero--dark" style='background-color: #000;'>
@@ -107,6 +107,7 @@ article_header:
 <div class="p-4"></div>
 
 <hr>
+<div class="p-4"></div>
 
 <div class="cards-container">
   <h2>Unlock new dimensions of the experience.</h2> <!-- Added title for the section -->
@@ -162,7 +163,6 @@ article_header:
     </div>
 </div>
 
-<div class="p-4"></div>
 
 <hr>
 
