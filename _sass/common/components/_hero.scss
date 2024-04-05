@@ -29,12 +29,17 @@
     h6 { font-size: map-get($base, font-size-h6-sm); }
     p  { font-size: map-get($base, font-size); }
   }
+  max-width: 99%;
+  max-height: 99%;
+  margin: auto; // This centers the element within its container if it's a block-level element
   background-size: cover;
 
 }
 
 .hero--center {
   text-align: center;
+
+
   .menu {
     @extend .menu--center;
   }
@@ -51,7 +56,7 @@
   @include flexbox();
   @include flex-direction(column);
   @include justify-content(center);
-  border: 2px solid white; // Adds a white border
+  border: 1px solid white; // Adds a white border
   background-size: cover;
   background-position: 50% 50%;
   text-align: center;

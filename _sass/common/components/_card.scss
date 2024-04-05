@@ -38,6 +38,7 @@
   padding: map-get($spacers, 2) map-get($spacers, 3);
 }
 
+
 .card__header, .card__header > a {
   @include link-colors($text-color, $main-color-1);
   text-align: center;
@@ -132,6 +133,21 @@
     }
   }
 }
+
+.card__content--hero-style {
+  @extend .hero; 
+  cursor: pointer;
+  text-align: center; // Centers text inside the flex container
+
+  color: white; // This sets the text color to white for text within the card
+  
+  .card__image {
+    & > img {
+      height: inherit;
+    }
+  }
+}
+
 
 
 .card--flat {
