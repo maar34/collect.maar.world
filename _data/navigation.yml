@@ -48,25 +48,21 @@ header:
 layouts:
   - title: Docs
     url: /documentation.html
+  - title: Tutorials
+    url: /docs/tutorials.html
   - title: ENT
     url: /docs/ent.html
-  - title: ENT-Releases
-    url: /docs/ent-releases.html
-    children:
-      - title: Sky Sounds
-        url: /docs/releases/skysounds.html
   - title: ENT-Cards
     url: /docs/ent-cards.html
     children:
+      - title: Sky Sounds
+        url: /docs/releases/skysounds.html
       - title: Sustainability
         url: /docs/ent-cards/sustainability.html
-      - title: Tutorials
-        url: /docs/ent-cards/tutorials.html
       - title: NFC
         url: /docs/ent-cards/nfc.html
       - title: NFT
         url: /docs/ent-cards/nft.html
-
   - title: Interplanetary Players
     url: /docs/int-players.html
     children:

@@ -18,39 +18,6 @@ article_header:
     src: /img/pages/433-decks.gif
 ---
 
-
-
-
-<!-- New section for "Control the Sound:" -->
-<section class="grid">
-  <article class="cell cell--bordered cell--12">
-    <div class="hero hero--center hero--dark" style='background-color: #000;'>
-      <div class="hero__content">
-        <h3>Control the Sound:</h3>
-        <div class="container">
-          <iframe src="https://play.maar.world/?g=335&s=1&c=0" class="responsive-iframe" title="Control the Sound Interactive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <p>Please unmute your device and press the PLAY ▶️ button. Adjust the sound by moving the XYZ KNOBS up or down until you like what you hear. If you want to go back to the original sound, press the hexagonal ⬢ buttons to reset the knobs to their equilibrium.</p>
-      </div>
-    </div>
-    <div class="hero hero--center hero--dark" style='background-color: #000;'>
-      <div class="hero__content">
-        <h3>Explore Regenerative Modes:</h3>
-        <div class="container">
-          <iframe src="https://play.maar.world/?g=8&s=0&c=21" class="responsive-iframe" title="Explore Regenerative Modes Interactive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <p>Experiment with 7 unique modes, creating with real data from exoplanets and their transits and orbits across different time scales. Leave the button pressed to get hints about these parameters.</p>
-      </div>
-    </div>
-  </article>
-</section>
-
-<div class="p-4"></div>
-<div class="padding: ($spacer * 6);"></div>
-
-
-
-
   <div class="p-4"></div>
   <div class="grid">
     <div class="cell cell--bordered cell--12">
@@ -73,6 +40,18 @@ article_header:
   });
 </script>
 
+
+<style>
+  .swiper-demo--3 {
+    background-color: black; /* Sets the background color to black */
+  }
+    .swiper-demo--3 .swiper__slide img {
+    width: 100%; /* Ensures images are fully responsive */
+    max-width: 100%; /* Ensures images do not exceed their container's width */
+    height: auto; /* Maintains aspect ratio */
+  }
+</style>
+
 <div class="swiper my-3 swiper-demo swiper-demo--image swiper-demo--3">
   <div class="swiper__wrapper">
     <!-- Slide 1 -->
@@ -85,7 +64,7 @@ article_header:
     </div>
     <!-- Slide 2 -->
     <div class="swiper__slide">
-      <img class="lightbox-ignore" src="/img/landing/cards-back.png" style="max-width: 800px;"/>
+      <img class="lightbox-ignore" src="/img/docs/int-players/10_ip-transit.png" style="max-width: 800px;"/>
       <div class="text-content">
         <h2>II</h2>
         <p>Intuitively remix music, making sound creation accessible and fun for everyone, from professional musicians to those with no prior experience.</p>
@@ -103,15 +82,71 @@ article_header:
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
 </div>
-</div></div>
-<div class="p-4"></div>
+</div>
+</div>
+
+<div class="p-5"></div>
+
+<!-- New section for "Control the Sound:" -->
+<section class="grid">
+  <article class="cell cell--bordered cell--12">
+    <div class="hero hero--center hero--dark" style='background-color: #000000;'>
+      <div class="hero__content">
+        <h3>Control the Sound:</h3>
+        <div class="container">
+          <iframe src="https://play.maar.world/?g=335&s=1&c=0" class="responsive-iframe" title="Control the Sound Interactive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Please unmute your device and press the PLAY ▶️ button. Adjust the sound by moving the XYZ KNOBS up or down until you like what you hear. If you want to go back to the original sound, press the hexagonal ⬢ buttons to reset the knobs to their equilibrium.</p>
+      </div>
+    </div>
+    <div class="hero hero--center hero--dark" style='background-color: #000000;'>
+      <div class="hero__content">
+        <h3>Explore Regenerative Modes:</h3>
+        <div class="container">
+          <iframe src="https://play.maar.world/?g=8&s=0&c=21" class="responsive-iframe" title="Explore Regenerative Modes Interactive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Experiment with 7 unique modes, creating with real data from exoplanets and their transits and orbits across different time scales. Leave the button pressed to get hints about these parameters.</p>
+      </div>
+    </div>
+  </article>
+</section>
+
+<div class="p-5"></div>
+
+<div class="grid">
+  <div class="cell cell--bordered cell--12">
+    <!-- Section 1: Innovative Tradition -->
+    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+      <div class="hero__content">
+        <h3>Innovative Tradition</h3>
+        <img src="/img/docs/int-players/maar-world-banner-ovni.jpg" alt="Innovative Tradition" style="max-width: 100%; height: auto; margin-top: 20px;">
+        <p>Discover the different cards effects as if you're adjusting a spaceship's experience.</p>
+      </div>
+    </div>
+    <!-- Section 2: An Extended Harmony of the Spheres -->
+    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+      <div class="hero__content">
+        <h3>An Extended Harmony of the Spheres</h3>
+        <img src="/img/docs/int-players/Planetary_Musical_Scales_from_Harmony_of_the_Worlds.jpg" alt="Harmony of the Spheres" style="max-width: 100%; height: auto; margin-top: 20px;">
+        <p>Sync your remix with the movement of the Kepler-47 star system. It's like mixing soundscapes with a touch of stardust, opening a new spectrum of possibilities for jamming with the cosmos.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="p-5"></div>
+
 
 <hr>
-<div class="p-4"></div>
 
 <div class="cards-container">
+<div class="p-4"></div>
+
   <h2>Unlock new dimensions of the experience.</h2> <!-- Added title for the section -->
-  
+  <div class="p-4"></div>
+
   <div class="grid grid--p-3">
     <!-- Card 1: Select and get your favourite card -->
     <div class="cell cell--12 cell--lg-4 content">
@@ -157,35 +192,12 @@ article_header:
     <div class="hero hero--center hero--dark" style='background-color: #000;'>
       <div class="hero__content">
         <h3>Start Collecting</h3>
-        <p>Purchase physical in our online store, and we'll ship them wherever you are.</p>
+        <p>Purchase physical in our online store, <br> and we'll ship them wherever you are.</p>
         <a class="button button--primary button--rounded button--l" href="/cards"><span class="material-symbols-outlined">hearing</span> Collect</a>
       </div>
     </div>
 </div>
 
-
 <hr>
 
 <div class="p-4"></div>
-
-
-<div class="grid">
-  <div class="cell cell--bordered cell--12">
-    <!-- Section 1: Innovative Tradition -->
-    <div class="hero hero--center hero--dark" style='background-color: #000;'>
-      <div class="hero__content">
-        <h3>Innovative Tradition</h3>
-        <img src="/img/pages/433-suits.gif" alt="Innovative Tradition" style="max-width: 100%; height: auto; margin-top: 20px;">
-        <p>Discover the different cards effects as if you're adjusting a spaceship's experience.</p>
-      </div>
-    </div>
-    <!-- Section 2: An Extended Harmony of the Spheres -->
-    <div class="hero hero--center hero--dark" style='background-color: #000;'>
-      <div class="hero__content">
-        <h3>An Extended Harmony of the Spheres</h3>
-        <img src="/img/docs/int-players/Planetary_Musical_Scales_from_Harmony_of_the_Worlds.jpg" alt="Harmony of the Spheres" style="max-width: 100%; height: auto; margin-top: 20px;">
-        <p>Sync your remix with the movement of the Kepler-47 star system. It's like mixing soundscapes with a touch of stardust, opening a new spectrum of possibilities for jamming with the cosmos.</p>
-      </div>
-    </div>
-  </div>
-</div>

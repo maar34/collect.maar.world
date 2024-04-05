@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Tutorials
-permalink: /docs/ent-cards/tutorials.html
+permalink: /docs/tutorials.html
 key: page-sidebar-aside
 cover: /img/docs/covers/tutorials-cover.jpeg
 aside:
