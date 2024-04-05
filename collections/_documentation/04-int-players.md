@@ -16,101 +16,188 @@ article_header:
   background_image:
   #  gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
     src: /img/pages/433-decks.gif
-data:
-  sections:
-    - title: "Control the Sound:" 
-      excerpt:  Please unmute your device and press PLAY ▶️ button. Adjust the sound parameters with the XYZ Balance buttons or sliders to tweak the sound to your liking.
-      iframe_src: "https://play.maar.world/?g=335&s=1&c=0"
-
-    - title: "Explore Regenerative Modes:"
-      excerpt: Experiment with 7 unique modes, creating with real data from exoplanets and their transits and orbits across different time scales. Leave the button pressed to get hints about this parameters. 
-      iframe_src: "https://play.maar.world/?g=8&s=0&c=21"
-
-
-    - title: 💌
-    
-    - title: I
-      image:
-        src: /img/docs/int-players/07_ip-card.jpg
-        is_row: true
-        full_width: true
-        style: "max-width: 800px;"
-      excerpt:  Explore music like never before, allowing you to layer sounds with controls that vary according to the cards you play, creating rich and original sound experiences.
-
-    - title: II
-      image:
-        src: /img/landing/cards-back.png
-        is_row: false
-        full_width: true
-        style: "max-width: 800px;"
-      excerpt: Intuitively remix music, making sound creation accessible and fun for everyone, from professional musicians to those with no prior experience. 
-    - title: III
-      image:
-        src: /img/docs/int-players/08_ip-max-24.jpg
-        is_row: true
-        full_width: true
-        style: "max-width: 800px;"
-      excerpt: We are in the very beggining of this journey, <a href="https://maar.world/subscribe" target="_blank">stay connected </a> for more.
-
-
-    - title: Unlock new dimensions of the experience.
-      children:
-        - title: 'Select and get your favourite card for 7.00 U$D <i class="fas fa-arrow-down"></i>'
-          image:
-            src: /img/landing/2024_ss-5.jpeg
-            url: https://maarworld.gumroad.com/l/020-Maar-Sky-Sounds-2-Card-IX
-            style: "max-width: 400; max-height: 400"
-            is_row: true
-        - title: 'Get 3 random cards envelope 17.67 U$D <i class="fas fa-arrow-down"></i>'
-          image:
-            src: /img/landing/2024_ss-6.jpeg
-            url: https://maarworld.gumroad.com/l/3envelope
-            style: "max-width: 400; max-height: 400"
-            is_row: true
-        - title: 'Get 7 random cards envelope 33.33 U$D <i class="fas fa-arrow-down"></i>'
-          image:
-            src: /img/landing/2024_ss-7.jpeg
-            url: https://maarworld.gumroad.com/l/7envelope
-            style: "max-width: 400; max-height: 400"
-            is_row: true
-    - title: Innovative Tradition
-      excerpt: Start experimenting with PLAY ▶️ Pause, X Y Z knobs and Regeneration Button. Discover the different cards effects as if you're adjusting a spaceship's experience.   
-      theme: dark
-      background_image:
-      gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
-      src: /img/landing/2024_ss-2.jpeg
-      image:
-        src: /img/docs/int-players/09_ip-immersive.jpg
-        is_row: true
-        full_width: true
-        style: "max-width: 1200px;"
-      background_color: "#000000"
-      
-    - title: Start collecting
-      theme: dark
-      excerpt: Purchase physical in our online store, and we'll ship them wherever you are.
-      actions:
-        - text: <span class="material-symbols-outlined">hearing</span>  Collect 
-          url: /cards
-          type: outline-theme-dark
-
-      background_color: "#663399"
-    - title: An Extended Harmony of the Spheres 
-      excerpt: Sync your remix with the movement of the Kepler-47 star system. It's like mixing your sounds with a touch of stardust, opening a new spectrum of possibilities for jamming with the cosmos.
-      actions:
-
-      theme: dark
-      background_image:
-      gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , .9), rgba(139, 34, 139, .9))'
-      src: /img/landing/2024_ss-2.jpeg
-      image:
-        src: /img/docs/int-players/Planetary_Musical_Scales_from_Harmony_of_the_Worlds.jpg
-        is_row: true
-        full_width: true
-        style: "max-width: 400px;"
-
-        
-      background_color: "#000000"
-
-      
 ---
+
+  <div class="p-4"></div>
+  <div class="grid">
+    <div class="cell cell--bordered cell--12">
+
+<div class="hero hero--center" style="background-color: #000000;">
+  <div class="hero__content">
+    <h3>Start your journey</h3>
+  </div>
+</div>
+
+<script>
+  {%- include scripts/lib/swiper.js -%}
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    $('.swiper-demo--0').swiper();
+    $('.swiper-demo--1').swiper();
+    $('.swiper-demo--2').swiper();
+    $('.swiper-demo--3').swiper();
+    $('.swiper-demo--4').swiper({ animation: true });
+  });
+</script>
+
+
+<style>
+  .swiper-demo--3 {
+    background-color: black; /* Sets the background color to black */
+  }
+    .swiper-demo--3 .swiper__slide img {
+    width: 100%; /* Ensures images are fully responsive */
+    max-width: 100%; /* Ensures images do not exceed their container's width */
+    height: auto; /* Maintains aspect ratio */
+  }
+</style>
+
+<div class="swiper my-3 swiper-demo swiper-demo--image swiper-demo--3">
+  <div class="swiper__wrapper">
+    <!-- Slide 1 -->
+    <div class="swiper__slide">
+      <img class="lightbox-ignore" src="/img/docs/int-players/07_ip-card.jpg" style="max-width: 800px;"/>
+      <div class="text-content">
+        <h2>I</h2>
+        <p>Explore music like never before, allowing you to layer sounds with controls that vary according to the cards you play, creating rich and original sound experiences.</p>
+      </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="swiper__slide">
+      <img class="lightbox-ignore" src="/img/docs/int-players/10_ip-transit.png" style="max-width: 800px;"/>
+      <div class="text-content">
+        <h2>II</h2>
+        <p>Intuitively remix music, making sound creation accessible and fun for everyone, from professional musicians to those with no prior experience.</p>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="swiper__slide">
+      <img class="lightbox-ignore" src="/img/docs/int-players/08_ip-max-24.jpg" style="max-width: 800px;"/>
+      <div class="text-content">
+        <h2>III</h2>
+        <p>We are in the very beginning of this journey, <a href="https://maar.world/subscribe" target="_blank">stay connected</a> for more.</p>
+      </div>
+    </div>
+  </div>
+  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
+  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
+</div>
+</div>
+</div>
+
+<div class="p-5"></div>
+
+<!-- New section for "Control the Sound:" -->
+<section class="grid">
+  <article class="cell cell--bordered cell--12">
+    <div class="hero hero--center hero--dark" style='background-color: #000000;'>
+      <div class="hero__content">
+        <h3>Control the Sound:</h3>
+        <div class="container">
+          <iframe src="https://play.maar.world/?g=335&s=1&c=0" class="responsive-iframe" title="Control the Sound Interactive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Please unmute your device and press the PLAY ▶️ button. Adjust the sound by moving the XYZ KNOBS up or down until you like what you hear. If you want to go back to the original sound, press the hexagonal ⬢ buttons to reset the knobs to their equilibrium.</p>
+      </div>
+    </div>
+    <div class="hero hero--center hero--dark" style='background-color: #000000;'>
+      <div class="hero__content">
+        <h3>Explore Regenerative Modes:</h3>
+        <div class="container">
+          <iframe src="https://play.maar.world/?g=8&s=0&c=21" class="responsive-iframe" title="Explore Regenerative Modes Interactive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Experiment with 7 unique modes, creating with real data from exoplanets and their transits and orbits across different time scales. Leave the button pressed to get hints about these parameters.</p>
+      </div>
+    </div>
+  </article>
+</section>
+
+<div class="p-5"></div>
+
+<div class="grid">
+  <div class="cell cell--bordered cell--12">
+    <!-- Section 1: Innovative Tradition -->
+    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+      <div class="hero__content">
+        <h3>Innovative Tradition</h3>
+        <img src="/img/docs/int-players/maar-world-banner-ovni.jpg" alt="Innovative Tradition" style="max-width: 100%; height: auto; margin-top: 20px;">
+        <p>Discover the different cards effects as if you're adjusting a spaceship's experience.</p>
+      </div>
+    </div>
+    <!-- Section 2: An Extended Harmony of the Spheres -->
+    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+      <div class="hero__content">
+        <h3>An Extended Harmony of the Spheres</h3>
+        <img src="/img/docs/int-players/Planetary_Musical_Scales_from_Harmony_of_the_Worlds.jpg" alt="Harmony of the Spheres" style="max-width: 100%; height: auto; margin-top: 20px;">
+        <p>Sync your remix with the movement of the Kepler-47 star system. It's like mixing soundscapes with a touch of stardust, opening a new spectrum of possibilities for jamming with the cosmos.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="p-5"></div>
+
+
+<hr>
+
+<div class="cards-container">
+<div class="p-4"></div>
+
+  <h2>Unlock new dimensions of the experience.</h2> <!-- Added title for the section -->
+  <div class="p-4"></div>
+
+  <div class="grid grid--p-3">
+    <!-- Card 1: Select and get your favourite card -->
+    <div class="cell cell--12 cell--lg-4 content">
+      <a href="https://maarworld.gumroad.com/l/020-Maar-Sky-Sounds-2-Card-IX">
+        <div class="card card--clickable">
+          <div class="card__image">
+            <img class="image" src="/img/landing/2024_ss-5.jpeg"/>
+          </div>
+          <div class="card__content">
+            <p>Select and get your favourite card for 7.00 U$D <i class="fas fa-arrow-down"></i></p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Card 2: Get 3 random cards envelope -->
+    <div class="cell cell--12 cell--lg-4 content">
+      <a href="https://maarworld.gumroad.com/l/3envelope">
+        <div class="card card--clickable">
+          <div class="card__image">
+            <img class="image" src="/img/landing/2024_ss-6.jpeg"/>
+          </div>
+          <div class="card__content">
+            <p>Get 3 random cards envelope 17.67 U$D <i class="fas fa-arrow-down"></i></p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Card 3: Get 7 random cards envelope -->
+    <div class="cell cell--12 cell--lg-4 content">
+      <a href="https://maarworld.gumroad.com/l/7envelopeX">
+        <div class="card card--clickable">
+          <div class="card__image">
+            <img class="image" src="/img/landing/2024_ss-7.jpeg"/>
+          </div>
+          <div class="card__content">
+            <p>Get 7 random cards envelope 33.33 U$D <i class="fas fa-arrow-down"></i></p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+    <!-- Section 2: Start Collecting -->
+    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+      <div class="hero__content">
+        <h3>Start Collecting</h3>
+        <p>Purchase physical in our online store, <br> and we'll ship them wherever you are.</p>
+        <a class="button button--primary button--rounded button--l" href="/cards"><span class="material-symbols-outlined">hearing</span> Collect</a>
+      </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="p-4"></div>

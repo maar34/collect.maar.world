@@ -2,26 +2,15 @@
 
 header:
 
-
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">stress_management</span> Physical
+      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Interplanetary Players
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: https://www.physical.maar.world/
-
-  - titles:
-      # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Digital
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: https://digital.maar.world
+    url: /docs/int-players.html
 
   - titles:
       # @start locale config
@@ -59,25 +48,21 @@ header:
 layouts:
   - title: Docs
     url: /documentation.html
+  - title: Tutorials
+    url: /docs/tutorials.html
   - title: ENT
     url: /docs/ent.html
-  - title: ENT-Releases
-    url: /docs/ent-releases.html
-    children:
-      - title: Sky Sounds
-        url: /docs/releases/skysounds.html
   - title: ENT-Cards
     url: /docs/ent-cards.html
     children:
+      - title: Sky Sounds
+        url: /docs/releases/skysounds.html
       - title: Sustainability
         url: /docs/ent-cards/sustainability.html
-      - title: Tutorials
-        url: /docs/ent-cards/tutorials.html
       - title: NFC
         url: /docs/ent-cards/nfc.html
       - title: NFT
         url: /docs/ent-cards/nft.html
-
   - title: Interplanetary Players
     url: /docs/int-players.html
     children:

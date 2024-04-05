@@ -10,12 +10,6 @@ show_date: false
 permalink: /cards.html
 key: cards page
 cover: /img/pages/433-cards.gif
-articles:
-  data_source: site.cards
-  show_excerpt: true
-  show_readmore: true
-  cover_size: md
-  type: item
 
 header:
    theme: dark
@@ -29,3 +23,11 @@ article_header:
 # theme: ocean
   #  gradient: 'linear-gradient(135deg, rgba(0, 255, 0 , .4), rgba(139, 34, 139, .1))'
 ---
+
+
+<div class="layout--articles">
+  <section class="my-5">
+    <header><h2 id="page-layout"></h2></header>
+    {%- include article-list.html articles=site.cards type='grid' -%}
+  </section>
+</div>

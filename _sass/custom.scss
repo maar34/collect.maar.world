@@ -114,9 +114,10 @@
   max-width: 600px;
   margin: 0 auto; /* Centers the container */
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 16px rgba(rgb(255, 255, 255), .9), 0 2px 6px rgba(rgb(51, 255, 255), .5), 0 12px 24px rgb(192, 201, 201);
   border-radius: 8px;
 }
+
 
 .contact-form {
   margin-top: 20px; /* Adds some space between the text and the form */
@@ -159,3 +160,7 @@
 }
 
 /* end custom scss snippet */
+.centered-text {
+  text-align: center;
+}
+

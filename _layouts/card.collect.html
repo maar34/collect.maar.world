@@ -24,18 +24,23 @@ layout: article
   </div>
 </div>
 
-<div class="p-4">
-  <div class="padding: ($spacer * 1.5); margin-top: $spacer*4;">
-    <select class="select" id="link-selector">
-      <option value="{{ page.physical_link }}">Physical</option>
-      <option value="{{ page.digital_link }}">Digital</option>
-    </select>
-    <button class="button button--primary  button--rounded" id="go-button">Buy</button>
 
-    <div id="display-text" style="margin-top: 20px;"></div>
+    <div class="hero hero--center hero--dark hero-example--linear-gradient">
+      <div class="hero__content">
 
+        <div class="padding: ($spacer * 1.5); margin-top: $spacer*4;">
+          <select class="select" id="link-selector">
+            <option value="{{ page.physical_link }}">Physical</option>
+            <option value="{{ page.digital_link }}">Digital</option>
+          </select>
+          <button class="button button--primary  button--rounded" id="go-button">Buy</button>
+
+          <div id="display-text" style="margin-top: 20px;"></div>
+
+      </div>
   </div>
 </div>
+
 
 <script>
   const linkSelector = document.querySelector("#link-selector");
@@ -49,7 +54,7 @@ layout: article
         displayText.innerHTML = "Select and Buy one Physical Card for $7";
         break;
       case "{{ page.digital_link }}":
-        displayText.innerHTML = "Buy NFT Card 0.00044 eth";
+        displayText.innerHTML = "Buy NFT Card 0.0044 eth";
         break;
       default:
         displayText.innerHTML = "< Select your Card Type";
@@ -67,7 +72,7 @@ layout: article
 </script>
 
 <div class="article__content" itemprop="articleBody" style="text-align:center;">
-  <p class="success">Collect this card to unlock access to the <br> Interplanetary Player and download high-quality audio files.</p>
+  <p class="white">Collect this card to unlock access to the <br> Interplanetary Player and download high-quality audio files.</p>
 </div>
 
 <div class="hero hero--center" style="background-color: #000000; height: 55px;">

@@ -1,46 +1,61 @@
-
 .card {
-  max-width: 15rem;
+  max-width: 100rem;
   border-radius: map-get($base, border-radius);
   @include box-shadow(3);
-  @include box-shadow(3);
+  // Set a simple white border
+  border: 1px solid white;
 
   @include transition(box-shadow map-get($animation, duration) map-get($animation, timing-function));
+
   & > :first-child {
     border-top-left-radius: map-get($base, border-radius);
     border-top-right-radius: map-get($base, border-radius);
   }
+
   & > :last-child {
     border-bottom-right-radius: map-get($base, border-radius);
     border-bottom-left-radius: map-get($base, border-radius);
   }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%; // Full width to ensure centering context
+  margin: 0 auto;
 }
+
 
 .cell {
   & > .card {
     max-width: unset;
   }
+  
 }
 
 .card__content {
   padding: map-get($spacers, 2) map-get($spacers, 3);
 }
 
+
 .card__header, .card__header > a {
-  @include link-colors($text-color-d, $main-color-1);
+  @include link-colors($text-color, $main-color-1);
   text-align: center;
 }
 
 .card__image {
-  
   position: relative;
   width: 100%;
-  & > img {
+  
+  & > img,
+  & > video {
     display: block;
     width: 100%;
     height: auto;
     border-radius: inherit;
   }
+  
   & > .overlay {
     position: absolute;
     width: 100%;
@@ -50,7 +65,9 @@
       text-decoration: none !important;
     }
   }
-  & > .overlay, & > .overlay--top {
+  
+  & > .overlay,
+  & > .overlay--top {
     top: 0;
     bottom: auto;
     border-top-left-radius: inherit;
@@ -58,6 +75,7 @@
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
+  
   & > .overlay--bottom {
     top: auto;
     bottom: 0;
@@ -66,14 +84,18 @@
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
   }
+  
   & > .overlay--full {
     top: 0;
     bottom: 0;
   }
-  & > .overlay, & > .overlay--dark {
+  
+  & > .overlay,
+  & > .overlay--dark {
     @extend .text--dark;
     background-color: rgba(#000, .4);
   }
+  
   & > .overlay--light {
     @extend .text--light;
     background: rgba(#fff, .4);
@@ -82,16 +104,51 @@
 
 .card--clickable {
   cursor: pointer;
-  @include hover() {
-    @include box-shadow(2);
-    .card__image {
-      & > img {
-        height: inherit;
-      }
+  text-align: center; // Centers text inside the flex container
+
+  color: white; // This sets the text color to white for text within the card
+
+  // Targeting links specifically to ensure they are also white
+  a {
+    color: white; // Ensures links are white
+    &:hover, &:focus {
+      color: white; // Keeps links white even when hovered or focused
     }
   }
+  
+  // Default state without shadow
+  @include box-shadow(0);
+
+  // Define the transition for smooth effect on hover
   @include transition(map-get($clickable, transition));
+
+  &:hover {
+    // Apply shadow on hover
+    @include box-shadow(3);
+  }
+  
+  .card__image {
+    & > img {
+      height: inherit;
+    }
+  }
 }
+
+.card__content--hero-style {
+  @extend .hero; 
+  cursor: pointer;
+  text-align: center; // Centers text inside the flex container
+
+  color: white; // This sets the text color to white for text within the card
+  
+  .card__image {
+    & > img {
+      height: inherit;
+    }
+  }
+}
+
+
 
 .card--flat {
   @include box-shadow(0);
@@ -104,4 +161,13 @@
     padding-top: 0;
     padding-left: 0;
   }
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%; /* Full width to ensure centering context */
+  margin: 0 auto;
 }
