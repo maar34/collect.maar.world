@@ -10,14 +10,22 @@ sidebar:
   nav: layouts
 header:
    theme: dark
+
 ---
 
-<div style="display: flex; justify-content: center;">
-  <iframe width="360" height="640" src="https://www.youtube.com/embed/gpL2sTqXdrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<hr>
+
+<h3> Physical Cards Series </h3> 
+
+{%- include extensions/youtube.html id='A6tmLTIXbc8' -%}
+
+`#Tutorial`{:.success} `#Physical`{:.success} `#ENT`{:.success} 
+
+<hr>
+
+<h3> Interplanetary Players Series </h3> 
 
 
+ {%- include extensions/youtube.html id='g3LCM5YFyP8' -%}
+`#Tutorial`{:.success} `#Physical`{:.success} `#IP`{:.success} 
 
-
-</div>
-
-<p style="text-align: center;">🔜 More Tutorials coming soon</p>
