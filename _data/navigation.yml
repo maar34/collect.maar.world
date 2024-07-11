@@ -14,27 +14,6 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">hearing</span> Cards
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: /cards.html
-    
-  - titles:
-      # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">menu_book</span> Docs
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-
-      # @end locale config
-    url: /documentation.html
-
-  - titles:
-      # @start locale config
       en      : &EN       <span class="material-symbols-outlined"> hexagon </span> Maar World
       en-GB   : *EN
       en-US   : *EN
