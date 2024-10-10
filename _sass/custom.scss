@@ -36,7 +36,7 @@
 
   .select {
     font-size: 27px;
-    background-color: #000000;
+    background-color: #ffffff;
     border: 2px solid #ff33cc;
     color: #33eeff;
 
@@ -79,13 +79,19 @@
   'wght' 300,
   'GRAD' 200,
   'opsz' 40;
-  color: #ff33cc;
+  color: #33ffff;
   font-weight: bold;
   vertical-align: bottom;
 }
 .material-symbols-outlined-special {
-  color: #33ffff;
-}
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 40;
+  color: #ff33cc;
+  font-weight: bold;
+  vertical-align: bottom;}
 
 .qa {
   margin-bottom: 1em;
@@ -114,7 +120,7 @@
   max-width: 600px;
   margin: 0 auto; /* Centers the container */
   padding: 20px;
-  box-shadow: 0 8px 16px rgba(rgb(255, 255, 255), .9), 0 2px 6px rgba(rgb(51, 255, 255), .5), 0 12px 24px rgb(192, 201, 201);
+  box-shadow: 0 8px 16px rgba(rgb(255, 255, 255), .9), 0 2px 6px rgba(rgb(255, 51, 238), .5), 0 12px 24px rgb(192, 201, 201);
   border-radius: 8px;
 }
 
@@ -137,9 +143,9 @@
   margin-top: 5px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #cacaca;
   box-sizing: border-box;
-  background-color: white; /* Ensure background is white for visibility */
+  background-color: #efefef; /* Ensure background is white for visibility */
   color: black; /* Set text color to black for visibility */
 
 }

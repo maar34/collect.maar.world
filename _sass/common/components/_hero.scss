@@ -85,6 +85,20 @@
   @include media-breakpoint-down(md) {
     margin: map-get($spacers, 4) map-get($spacers, 3);
   }
+  
+}
+.hero__content__light {
+  margin: map-get($spacers, 5);
+  @include media-breakpoint-down(lg) {
+    margin: map-get($spacers, 5) map-get($spacers, 4);
+  }
+  @include media-breakpoint-down(md) {
+    margin: map-get($spacers, 4) map-get($spacers, 3);
+  }
+
+  p.excerpt {
+    color: #ffffff; // Set text color to white specifically for the excerpt paragraph
+  }
 }
 
 .heros {

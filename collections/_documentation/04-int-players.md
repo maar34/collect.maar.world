@@ -7,7 +7,7 @@ excerpt: >
 permalink: /docs/int-players.html
 full_width: false
 header:
-  theme: dark
+  theme: default
  # background: 'linear-gradient(135deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5),)'
 article_header:
   height: 30vh
@@ -22,7 +22,7 @@ article_header:
   <div class="grid">
     <div class="cell cell--bordered cell--12">
 
-<div class="hero hero--center" style="background-color: #000000;">
+<div class="hero hero--center" style="background-color: #white ;">
   <div class="hero__content">
     <h3>Start your journey</h3>
   </div>
@@ -43,7 +43,7 @@ article_header:
 
 <style>
   .swiper-demo--3 {
-    background-color: black; /* Sets the background color to black */
+    background-color: rgb(255, 255, 255); /* Sets the background color to white */
   }
     .swiper-demo--3 .swiper__slide img {
     width: 100%; /* Ensures images are fully responsive */
@@ -90,7 +90,7 @@ article_header:
 <!-- New section for "Control the Sound:" -->
 <section class="grid">
   <article class="cell cell--bordered cell--12">
-    <div class="hero hero--center hero--dark" style='background-color: #000000;'>
+    <div class="hero hero--center hero--light" style='background-color: #white;'>
       <div class="hero__content">
         <h3>Control the Sound:</h3>
         <div class="container">
@@ -99,7 +99,7 @@ article_header:
         <p>Please unmute your device and press the PLAY ▶️ button. Adjust the sound by moving the XYZ KNOBS up or down until you like what you hear. If you want to go back to the original sound, press the hexagonal ⬢ buttons to reset the knobs to their equilibrium.</p>
       </div>
     </div>
-    <div class="hero hero--center hero--dark" style='background-color: #000000;'>
+    <div class="hero hero--center hero--light" style='background-color: #white;'>
       <div class="hero__content">
         <h3>Explore Regenerative Modes:</h3>
         <div class="container">
@@ -116,7 +116,7 @@ article_header:
 <div class="grid">
   <div class="cell cell--bordered cell--12">
     <!-- Section 1: Innovative Tradition -->
-    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+    <div class="hero hero--center hero--light" style='background-color: #white;'>
       <div class="hero__content">
         <h3>Innovative Tradition</h3>
         <img src="/img/docs/int-players/maar-world-banner-ovni.jpg" alt="Innovative Tradition" style="max-width: 100%; height: auto; margin-top: 20px;">
@@ -124,7 +124,7 @@ article_header:
       </div>
     </div>
     <!-- Section 2: An Extended Harmony of the Spheres -->
-    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+    <div class="hero hero--center hero--light" style='background-color: #white;'>
       <div class="hero__content">
         <h3>An Extended Harmony of the Spheres</h3>
         <img src="/img/docs/int-players/Planetary_Musical_Scales_from_Harmony_of_the_Worlds.jpg" alt="Harmony of the Spheres" style="max-width: 100%; height: auto; margin-top: 20px;">
@@ -189,7 +189,7 @@ article_header:
     </div>
   </div>
     <!-- Section 2: Start Collecting -->
-    <div class="hero hero--center hero--dark" style='background-color: #000;'>
+    <div class="hero hero--center hero--light" style='background-color: #white;'>
       <div class="hero__content">
         <h3>Start Collecting</h3>
         <p>Purchase physical in our online store, <br> and we'll ship them wherever you are.</p>
