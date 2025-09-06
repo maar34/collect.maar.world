@@ -4,7 +4,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Interplanetary Players
+      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Orbiters
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -42,8 +42,8 @@ layouts:
         url: /docs/ent-cards/nfc.html
       - title: NFT
         url: /docs/ent-cards/nft.html
-  - title: Interplanetary Players
-    url: /docs/int-players.html
+  - title: Orbiters
+    url: https://maar.world/orbiters
     children:
       - title: How to use them
         url: /docs/int-players/how-to-use.html
