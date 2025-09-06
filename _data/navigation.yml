@@ -4,13 +4,13 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       <span class="material-symbols-outlined">digital_wellbeing</span> Orbiters
+      en      : &EN       <span class="material-symbols-outlined">web_stories</span> Buy Now
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /docs/int-players.html
+    url: https://maar-world.bandcamp.com/
 
   - titles:
       # @start locale config
@@ -29,8 +29,6 @@ layouts:
     url: /documentation.html
   - title: Tutorials
     url: /docs/tutorials.html
-  - title: ENT
-    url: /docs/ent.html
   - title: ENT-Cards
     url: /docs/ent-cards.html
     children:
@@ -40,33 +38,18 @@ layouts:
         url: /docs/ent-cards/sustainability.html
       - title: NFC
         url: /docs/ent-cards/nfc.html
-      - title: NFT
-        url: /docs/ent-cards/nft.html
   - title: Orbiters
-    url: https://maar.world/orbiters
+    url: /docs/orbiters/how-to-use.html
     children:
       - title: How to use them
-        url: /docs/int-players/how-to-use.html
+        url: /docs/orbiters/how-to-use.html
       - title: Development
-        url: /docs/int-players/development.html
-  - title: ENT-Worlds
-    url: /docs/ent-worlds.html
-    children:
-      - title: Redistribution
-        url: /docs/ent-worlds/redistribution.html
-      - title: Glossary
-        url: /docs/ent-worlds/glossary.html
-  - title: ENT-Space
-    url: /docs/ent-space.html
+        url: /docs/orbiters/development.html
 
 
   - title: Maar World
     url: /docs/mw.html
     children:
-      - title: About
-        url: https://maar.world/about
-      - title: FAQ
-        url: /docs/mw/faq.html
       - title: Terms & Conditions
         url: /docs/mw/terms.html
         
