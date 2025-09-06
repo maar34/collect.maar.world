@@ -20,7 +20,7 @@ That's where ENT Worlds comes in. We aim to create a new paradigm for music dist
 
 Maar World is just the beginning, though. We envision a future where ENT cards are used to distribute music from independent artists all over the world, where interplanetary music players allow anyone to create and manipulate sounds in new and exciting ways, and where decentralized applications and hardware development push the boundaries of what's possible in music.
 
-As we continue to develop and refine our vision, we welcome collaborators, artists, and labels to join us in this exciting journey. Expect new ENT cards releases featuring visual and sound artists, updated interplanetary players, dApps, and hardware development. Together, we can create a more sustainable, equitable, and creative future for music.
+As we continue to develop and refine our vision, we welcome collaborators, artists, and labels to join us in this exciting journey. Expect new ENT cards releases featuring visual and sound artists, updated Orbiters, dApps, and hardware development. Together, we can create a more sustainable, equitable, and creative future for music.
 
 
 ![Image](/img/docs/ent-space/01_ent-space.png "ENT Space")

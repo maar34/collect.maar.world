@@ -12,7 +12,7 @@ header:
    theme: dark
 ---
 
-At the moment, we are developing two versions of the Interplanetary Players: a web version and a Desktop application for Mac and Windows, designed for live and online jamming.
+At the moment, we are developing two versions of the Orbiters: a web version and a Desktop application for Mac and Windows, designed for live and online jamming.
 
 ![Image](/img/docs/int-players/03_int-development.png "Web Player Development")
 

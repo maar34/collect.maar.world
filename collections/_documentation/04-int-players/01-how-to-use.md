@@ -16,15 +16,15 @@ header:
 
 ![Image](/img/docs/int-players/04-vinyl-sphere.png "Vinyl and Planet Player")
 
-As a basic concept, playing an Interplanetary player is playing with a Sphere, think about adding an extra dimension to a vinyl record, and the option to maintain or interchange sound parameters. Each card changes the settings in the X, Y, and Z axes and loop time. Each suit combined represents a track, and each deck is an album. You can add as many layers as your browser can handle, creating a rich and complex sound experience. With endless possibilities for listening, and playing, the Interplanetary Players offer a new level of musical creativity and exploration.
+As a basic concept, playing an Orbiter is playing with a Sphere, think about adding an extra dimension to a vinyl record, and the option to maintain or interchange sound parameters. Each card changes the settings in the X, Y, and Z axes and loop time. Each suit combined represents a track, and each deck is an album. You can add as many layers as your browser can handle, creating a rich and complex sound experience. With endless possibilities for listening, and playing, the Orbiters offer a new level of musical creativity and exploration.
 
 ### Web Player 
 
-Each card number is associated with a unique Interplanetary Player configuration that includes a selected set of transformation parameters. You can play the embedded player or switch to full-screen mode for an immersive experience. Additionally, you can play with multiple cards simultaneously, mixing their sounds to create unique sonic experiences every time.
+Each card number is associated with a unique Orbiter configuration that includes a selected set of transformation parameters. You can play the embedded player or switch to full-screen mode for an immersive experience. Additionally, you can play with multiple cards simultaneously, mixing their sounds to create unique sonic experiences every time.
 
 If you are playing on a iphone mobile device, it's essential to unmute your device first.
 
-![Image](/img/docs/int-players/05_int-player-2024.jpeg "Interplanetary Player")
+![Image](/img/docs/int-players/05_int-player-2024.jpeg "Orbiter")
 
 
 To start and stop the sound, press the PLAY/PAUSE ▶️ button.
@@ -33,9 +33,9 @@ The XYZ Balance buttons allow you to reset the parameters to their default posit
 
 Use the XYZ knobs to modify the sound parameters of the card. Simply move the slider to your desired position to adjust the sound.
 
-Regenerative button change modes of the interplanetary player can be used. 
+Regenerative button change modes of the Orbiter can be used. 
 
-![Image](/img/docs/int-players/06_int-player-2024.jpeg "Interplanetary Player")
+![Image](/img/docs/int-players/06_int-player-2024.jpeg "Orbiter")
 
 IP currently support 7 modes:  
 
