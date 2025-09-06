@@ -1,7 +1,7 @@
 ---
 layout: article
 title: How to use
-permalink: /docs/int-players/how-to-use.html
+permalink: /docs/orbiters/how-to-use.html
 key: page-sidebar-aside
 cover: /img/docs/covers/how-to.jpg
 aside:
@@ -14,7 +14,7 @@ header:
 
 ### A Planet is a Vinyl + One dimension
 
-![Image](/img/docs/int-players/04-vinyl-sphere.png "Vinyl and Planet Player")
+![Image](/img/docs/orbiters/04-vinyl-sphere.png "Vinyl and Planet Player")
 
 As a basic concept, playing an Orbiter is playing with a Sphere, think about adding an extra dimension to a vinyl record, and the option to maintain or interchange sound parameters. Each card changes the settings in the X, Y, and Z axes and loop time. Each suit combined represents a track, and each deck is an album. You can add as many layers as your browser can handle, creating a rich and complex sound experience. With endless possibilities for listening, and playing, the Orbiters offer a new level of musical creativity and exploration.
 
@@ -24,7 +24,7 @@ Each card number is associated with a unique Orbiter configuration that includes
 
 If you are playing on a iphone mobile device, it's essential to unmute your device first.
 
-![Image](/img/docs/int-players/05_int-player-2024.jpeg "Orbiter")
+![Image](/img/docs/orbiters/05_int-player-2024.jpeg "Orbiter")
 
 
 To start and stop the sound, press the PLAY/PAUSE ▶️ button.
@@ -35,7 +35,7 @@ Use the XYZ knobs to modify the sound parameters of the card. Simply move the sl
 
 Regenerative button change modes of the Orbiter can be used. 
 
-![Image](/img/docs/int-players/06_int-player-2024.jpeg "Orbiter")
+![Image](/img/docs/orbiters/06_int-player-2024.jpeg "Orbiter")
 
 IP currently support 7 modes:  
 
