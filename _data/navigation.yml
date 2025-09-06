@@ -10,7 +10,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: https://maar-world.bandcamp.com/
+    url: https://maar-world.bandcamp.com/merch
 
   - titles:
       # @start locale config
