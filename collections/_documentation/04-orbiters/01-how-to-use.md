@@ -37,7 +37,7 @@ Regenerative button change modes of the Orbiter can be used.
 
 ![Image](/img/docs/orbiters/06_int-player-2024.jpeg "Orbiter")
 
-IP currently support 7 modes:  
+Orbiters currently support 7 modes:  
 
 0. xJam: Listen music normally or play with X Y Z knobs to transform music. 
 1. Transit I. Scale = 1 minute ~ 24hs " X Y Z knobs change depending on transit date, impact parameter, amd duration of the transit. 
