@@ -1,6 +1,13 @@
-
-
 header:
+  - titles:
+      # @start locale config
+      en      : &EN       <span class="material-symbols-outlined">description</span> Docs
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /documentation.html
 
   - titles:
       # @start locale config
@@ -22,6 +29,7 @@ header:
 
       # @end locale config
     url: https://www.maar.world
+
 
 
 layouts:
