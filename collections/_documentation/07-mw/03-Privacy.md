@@ -23,7 +23,7 @@ Maar World is the data controller for this website.
 Contact: **hello@maar.world**  
 
 ## 2. What Data We Collect  
-- **Technical data:** IP address, browser type, operating system, pages visited (via Google Analytics).  
+- **Technical data:** anonymized IP address, browser type, operating system, pages visited (via Google Analytics).  
 - **Media delivery:** Dropbox may collect technical information to deliver files.  
 - **Embedded content:** When you watch a YouTube video on our site, YouTube/Google may collect usage data.  
 - **Purchases:** All sales are handled externally on **Bandcamp**. We do not process payments or store your payment details here.  
