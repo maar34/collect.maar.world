@@ -19,7 +19,7 @@ header:
 The complete Deck Album consists of 34 cards that are divided into three suits of 11 cards each, along with a special wild card that allows access to any card in the deck. 
 
 
-### Credits
+#### Credits
 
 |Idea | Maar|
 |Music | Maar|
