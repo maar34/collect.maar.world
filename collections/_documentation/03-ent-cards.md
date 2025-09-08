@@ -15,7 +15,7 @@ header:
 ### ENT Cards
 A new paradigm for music distribution of independent artists, merging physical and digital releases, music making and listening. 
 
-### Front
+#### Front
 
 On the front side of each card, you can find several identifying features, including:
 
@@ -26,7 +26,7 @@ On the front side of each card, you can find several identifying features, inclu
 
 ![Image](/img/docs/ent-cards/01_card-front.png "Card Front Diagram") 
 
-### Back
+#### Back
 
 On the back side of the card, you'll find:
 

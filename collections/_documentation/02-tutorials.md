@@ -15,7 +15,7 @@ header:
 
 <hr>
 
-<h3> How to Use Sky Sounds Cards | Step-by-Step Guide </h3> 
+<h4> How to Use Sky Sounds Cards | Step-by-Step Guide </h4> 
 
 {%- include extensions/youtube.html id='kdTQN2zn7Mo' -%}
 
@@ -23,7 +23,7 @@ header:
 
 <hr>
 
-<h3> Orbiters Tutorial: Interactive Music with Jam Mode </h3> 
+<h4> Orbiters Tutorial: Interactive Music with Jam Mode </h4> 
 
 
  {%- include extensions/youtube.html id='M5QpFRtg05Y' -%}
