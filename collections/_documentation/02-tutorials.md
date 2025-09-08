@@ -15,17 +15,17 @@ header:
 
 <hr>
 
-<h3> Physical Cards Series </h3> 
+<h3> How to Use Sky Sounds Cards | Step-by-Step Guide </h3> 
 
-{%- include extensions/youtube.html id='A6tmLTIXbc8' -%}
+{%- include extensions/youtube.html id='kdTQN2zn7Mo' -%}
 
-`#Tutorial`{:.success} `#Physical`{:.success} `#ENT`{:.success} 
+`#Tutorial`{:.success} `#Cards`{:.success} `#ENT`{:.success} 
 
 <hr>
 
-<h3> Orbiters Series </h3> 
+<h3> Orbiters Tutorial: Interactive Music with Jam Mode </h3> 
 
 
- {%- include extensions/youtube.html id='g3LCM5YFyP8' -%}
-`#Tutorial`{:.success} `#Physical`{:.success} `#IP`{:.success} 
+ {%- include extensions/youtube.html id='M5QpFRtg05Y' -%}
+`#Tutorial`{:.success} `#Cards`{:.success} `#Orbiters`{:.success} 
 
